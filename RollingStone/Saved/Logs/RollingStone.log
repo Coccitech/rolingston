@@ -872,3 +872,6 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.04-19.42.59:215][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.11.04-19.42.59:245][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
 [2022.11.04-19.42.59:256][ 20]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2022.11.04-19.43.32:196][564]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.04-19.43.32:210][564]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.04-19.44.07:748][878]LogDerivedDataCache: C:/Users/RIBE3101/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.293 and deleted 0 file(s) with total size 0 MiB.
