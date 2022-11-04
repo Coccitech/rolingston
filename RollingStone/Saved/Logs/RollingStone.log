@@ -6045,3 +6045,4 @@ Scale3D: 1.000000 1.000000 1.000000
 [2022.11.04-19.35.40:388][ 44]LogContentValidation: Display: Validating BP_Obstacle_C /Game/Map.Map:PersistentLevel.BP_Obstacle_C_UAID_10E7C619EF5F874601_1512568841
 [2022.11.04-19.35.40:388][ 44]LogContentValidation: Display: Validating BP_Player_C /Game/Map.Map:PersistentLevel.BP_Player_C_UAID_10E7C619EF5F854601_1351582488
 [2022.11.04-19.35.43:651][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.11.04-19.39.41:564][972]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
