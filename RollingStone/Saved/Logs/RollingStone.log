@@ -7276,3 +7276,903 @@ Scale3D: 1.000000 1.000000 1.000000
 [2022.11.04-20.34.12:012][359]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
 	BP_Player_C /Engine/Transient.World_2:PersistentLevel.BP_Player_C_51
 	Function /Game/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player:008E
+[2022.11.04-20.35.32:146][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset" SILENT=true
+[2022.11.04-20.35.32:158][517]LogSavePackage: Moving output files for package: /Game/BP_Player
+[2022.11.04-20.35.32:158][517]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/BP_PlayerE107BAB14C093AE8A6A5ACA64EE12D53.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset'
+[2022.11.04-20.35.32:175][517]AssetCheck: New page: Asset Save: BP_Player
+[2022.11.04-20.35.32:176][517]LogContentValidation: Display: Validating Blueprint /Game/BP_Player.BP_Player
+[2022.11.04-20.35.40:232][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset" SILENT=true
+[2022.11.04-20.35.40:257][924]LogSavePackage: Moving output files for package: /Game/BP_Player
+[2022.11.04-20.35.40:257][924]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/BP_Player859DC6C1499A4C9045A6938E2FFFB837.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset'
+[2022.11.04-20.35.40:271][924]AssetCheck: New page: Asset Save: BP_Player
+[2022.11.04-20.35.40:271][924]LogContentValidation: Display: Validating Blueprint /Game/BP_Player.BP_Player
+[2022.11.04-20.35.41:260][965]BlueprintLog: New page: Compile BP_Player
+[2022.11.04-20.35.41:350][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.11.04-20.35.41:371][965]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_Player_C /Engine/Transient.World_2:PersistentLevel.BP_Player_C_52
+	Function /Game/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player:008E
+[2022.11.04-20.35.53:770][448]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.04-20.35.53:777][448]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.04-20.35.53:778][448]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.04-20.35.53:778][448]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.04-20.35.53:778][448]LogWorldPartition: Display: ValidateSingleActorReferer took 7 us
+[2022.11.04-20.35.53:778][448]LogWorldPartition: Display: GetPartitionedActors took 72 us
+[2022.11.04-20.35.53:778][448]LogWorldPartition: Display: GenerateStreaming took 696 us
+[2022.11.04-20.35.53:778][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.04-20.35.53:779][448]PIE: New page: PIE session: Map (4 nov. 2022 à 22:35:53)
+[2022.11.04-20.35.53:779][448]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:803][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.35.53:804][448]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L0_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_4_0" parameter 'NormalTexture' assigned texture "BaseFlattenNormalMap_VT" requires non-virtual texture
+[2022.11.04-20.35.53:806][448]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.04-20.35.53:806][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027312s)
+[2022.11.04-20.35.53:806][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map.Map to /Game/UEDPIE_0_Map.Map (0.027392s)
+[2022.11.04-20.35.53:806][448]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-20.35.53:807][448]LogAIModule: Creating AISystem for world Map
+[2022.11.04-20.35.53:807][448]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.04-20.35.53:807][448]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.04-20.35.53:812][448]LogWorldPartition: Display: WorldPartition initialize took 4 ms
+[2022.11.04-20.35.53:812][448]LogPlayLevel: PIE: World Init took: (0.006096s)
+[2022.11.04-20.35.53:858][448]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2022.11.04-20.35.53:861][448]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2022.11.04-20.35.53:861][448]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.04-20.35.53:861][448]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.04-20.35.53:861][448]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.04-20.35.53:861][448]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.04-20.35.53:861][448]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.04-20.35.53:861][448]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.04-20.35.53:861][448]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.04-20.35.53:861][448]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.04-20.35.53:862][448]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.04-20.35.53:862][448]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.04-20.35.53:862][448]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.04-20.35.53:864][448]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.04-20.35.53:886][448]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (2- GSP 370)
+[2022.11.04-20.35.53:886][448]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.04-20.35.53:886][448]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.04-20.35.53:886][448]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.04-20.35.53:887][448]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2022.11.04-20.35.53:887][448]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2022.11.04-20.35.53:888][448]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2022.11.04-20.35.53:888][448]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2022.11.04-20.35.53:888][448]LogInit: FAudioDevice initialized.
+[2022.11.04-20.35.53:888][448]LogAudio: Display: Audio Device (ID: 42) registered with world 'Map'.
+[2022.11.04-20.35.53:906][448]LogLoad: Game class is 'BP_Gamemode_C'
+[2022.11.04-20.35.53:910][448]LogWorld: Bringing World /Game/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2022.11.04-21.35.53
+[2022.11.04-20.35.53:910][448]LogWorld: Bringing up level for play took: 0.004052
+[2022.11.04-20.35.53:912][448]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2022.11.04-20.35.53:953][448]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=86506.365 Y=-15966.415 Z=9590.447
+[2022.11.04-20.35.53:954][448]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(12), CellsToLoad(0), CellsToUnload(0)
+[2022.11.04-20.35.53:954][448]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=86506.365 Y=-15966.415 Z=9590.447,P=0.000000 Y=165.600002 R=0.000000
+[2022.11.04-20.35.53:956][448]LogStreaming: Display: FlushAsyncLoading: 28 QueuedPackages, 0 AsyncPackages
+[2022.11.04-20.35.54:078][448]PIE: Server logged in
+[2022.11.04-20.35.54:078][448]PIE: Play in editor total start time 0,302 seconds.
+[2022.11.04-20.35.54:080][448]PIE: Warning: BP_Player_C_0.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:080][448]PIE: Warning: BP_Player_C_0.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:123][449]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:123][449]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:224][450]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:224][450]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:239][451]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:239][451]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:264][452]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:264][452]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:286][453]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:286][453]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:305][454]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:306][454]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:325][455]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:325][455]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:344][456]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:344][456]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:364][457]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:364][457]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:384][458]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:384][458]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:403][459]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:403][459]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:421][460]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:422][460]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:443][461]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:443][461]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:462][462]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:462][462]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:484][463]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:484][463]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:504][464]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:504][464]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:524][465]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:524][465]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:544][466]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:544][466]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:563][467]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:563][467]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:583][468]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:583][468]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:602][469]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:602][469]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:622][470]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:622][470]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:641][471]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:641][471]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:663][472]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:663][472]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:681][473]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:681][473]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:699][474]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:699][474]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:718][475]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:718][475]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:737][476]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:737][476]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:757][477]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:757][477]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:783][478]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:784][478]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:797][479]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:797][479]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:815][480]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:815][480]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:835][481]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:836][481]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:855][482]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:855][482]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:874][483]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:874][483]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:893][484]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:894][484]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:913][485]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:913][485]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:932][486]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:932][486]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:951][487]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:951][487]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:972][488]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:972][488]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:992][489]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.54:992][489]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:010][490]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:010][490]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:032][491]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:032][491]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:051][492]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:051][492]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:071][493]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:071][493]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:088][494]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:089][494]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:107][495]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:108][495]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:127][496]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:127][496]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:146][497]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:146][497]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:165][498]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:165][498]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:185][499]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:185][499]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:204][500]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:204][500]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:224][501]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:224][501]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:243][502]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:243][502]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:261][503]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:261][503]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:281][504]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:281][504]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:301][505]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:301][505]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:319][506]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:319][506]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:339][507]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:339][507]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:358][508]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:358][508]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:376][509]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:377][509]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:395][510]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:396][510]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:415][511]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:415][511]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:434][512]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:434][512]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:452][513]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:452][513]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:472][514]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:472][514]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:491][515]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:491][515]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:511][516]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:511][516]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:531][517]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:531][517]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:548][518]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:548][518]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:567][519]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:567][519]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:587][520]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:587][520]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:605][521]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:605][521]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:624][522]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:625][522]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:643][523]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:643][523]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:663][524]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:663][524]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:682][525]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:682][525]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:701][526]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:701][526]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:720][527]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:721][527]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:739][528]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:739][528]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:759][529]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:759][529]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:779][530]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:780][530]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:798][531]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:798][531]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:817][532]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:817][532]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:836][533]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:836][533]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:855][534]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:856][534]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:874][535]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:874][535]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:892][536]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:892][536]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:911][537]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:911][537]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:931][538]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:931][538]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:950][539]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:950][539]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:969][540]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:969][540]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:988][541]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.55:988][541]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:007][542]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:007][542]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:026][543]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:026][543]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:045][544]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:045][544]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:065][545]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:065][545]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:085][546]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:085][546]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:104][547]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:104][547]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:123][548]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:123][548]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:142][549]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:143][549]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:162][550]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:162][550]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:180][551]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:180][551]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:199][552]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:199][552]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:218][553]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:219][553]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:237][554]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:237][554]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:256][555]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:256][555]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:274][556]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:274][556]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:293][557]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:293][557]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:312][558]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:312][558]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:332][559]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:332][559]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:351][560]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:351][560]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:370][561]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:370][561]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:390][562]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:390][562]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:409][563]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:409][563]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:428][564]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:428][564]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:447][565]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:447][565]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:466][566]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:466][566]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:485][567]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:485][567]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:504][568]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:504][568]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:523][569]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:523][569]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:541][570]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:541][570]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:561][571]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:561][571]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:580][572]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:580][572]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:599][573]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:599][573]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:619][574]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:619][574]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:636][575]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:636][575]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:656][576]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:656][576]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:675][577]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:675][577]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:694][578]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:694][578]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:714][579]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:714][579]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:732][580]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:732][580]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:751][581]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:751][581]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:770][582]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:770][582]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:789][583]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:789][583]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:809][584]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:809][584]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:828][585]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:828][585]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:846][586]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:846][586]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:865][587]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:866][587]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:885][588]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:885][588]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:904][589]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:904][589]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:923][590]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:923][590]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:942][591]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:942][591]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:960][592]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:960][592]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:979][593]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:980][593]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:998][594]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.56:999][594]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:018][595]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:018][595]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:038][596]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:038][596]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:057][597]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:057][597]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:076][598]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:076][598]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:095][599]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:095][599]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:114][600]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:114][600]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:133][601]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:133][601]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:152][602]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:152][602]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:171][603]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:171][603]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:190][604]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:190][604]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:208][605]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:208][605]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:228][606]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:228][606]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:248][607]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:248][607]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:267][608]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:267][608]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:287][609]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:287][609]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:306][610]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:306][610]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:325][611]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:325][611]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:345][612]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:345][612]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:364][613]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:365][613]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:384][614]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:384][614]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:402][615]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:402][615]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:421][616]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:421][616]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:440][617]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:441][617]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:460][618]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:460][618]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:480][619]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:480][619]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:499][620]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:499][620]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:518][621]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:518][621]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:537][622]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:537][622]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:557][623]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:557][623]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:577][624]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:577][624]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:596][625]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:596][625]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:616][626]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:616][626]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:635][627]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:635][627]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:654][628]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:655][628]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:673][629]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:674][629]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:692][630]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:692][630]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:712][631]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:712][631]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:732][632]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:732][632]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:751][633]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:751][633]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:769][634]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:769][634]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:788][635]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:788][635]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:808][636]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:808][636]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:827][637]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:828][637]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:847][638]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:847][638]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:866][639]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:866][639]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:885][640]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:885][640]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:905][641]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:905][641]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:924][642]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:924][642]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:944][643]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:944][643]PIE: Warning: BP_Player.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2022.11.04-20.35.57:967][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-20.35.57:967][643]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map
+[2022.11.04-20.35.57:977][643]LogWorld: UWorld::CleanupWorld for Map, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-20.35.57:978][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-20.35.58:003][643]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.04-20.35.58:008][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-20.35.58:057][643]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.04-20.35.58:057][643]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2022.11.04-20.35.58:058][643]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2022.11.04-20.35.58:062][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-20.35.58:068][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2022.11.04-20.35.58:332][644]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2022.11.04-20.36.07:590][ 70]LogSlate: Window 'Message Log' being destroyed
+[2022.11.04-20.36.07:617][ 70]LogSlate: Window 'Message Log' being destroyed
+[2022.11.04-20.36.09:003][137]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.09:003][137]LogEditorTransaction: Undo Resize Node
+[2022.11.04-20.36.10:051][168]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.10:051][168]LogEditorTransaction: Undo Change Collision Profile
+[2022.11.04-20.36.10:705][192]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.10:705][192]LogEditorTransaction: Undo Change Collision Profile
+[2022.11.04-20.36.11:204][212]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.11:204][212]LogEditorTransaction: Undo Edit Condition Changed
+[2022.11.04-20.36.12:504][269]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.12:504][269]LogEditorTransaction: Undo Edit Mass (kg)
+[2022.11.04-20.36.13:061][291]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.13:061][291]LogEditorTransaction: Undo Edit Condition Changed
+[2022.11.04-20.36.13:729][317]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.13:729][317]LogEditorTransaction: Undo Edit Simulate Physics
+[2022.11.04-20.36.14:154][333]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.14:154][333]LogEditorTransaction: Undo Edit Simulate Physics
+[2022.11.04-20.36.14:545][347]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.14:545][347]LogEditorTransaction: Undo Rename Node
+[2022.11.04-20.36.14:813][355]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.14:813][355]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.04-20.36.15:029][364]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.15:029][364]LogEditorTransaction: Undo Rename Node
+[2022.11.04-20.36.15:215][368]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.15:216][368]LogEditorTransaction: Undo Edit Vitesse Max X
+[2022.11.04-20.36.15:389][370]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.15:389][370]LogEditorTransaction: Undo Clicking on Elements
+[2022.11.04-20.36.15:548][378]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.15:548][378]LogEditorTransaction: Undo Edit Vitesse Max X
+[2022.11.04-20.36.15:734][383]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.15:734][383]LogEditorTransaction: Undo Edit Vitesse Max X
+[2022.11.04-20.36.15:901][387]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.15:901][387]LogEditorTransaction: Undo Move Nodes
+[2022.11.04-20.36.16:148][393]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.16:148][393]LogEditorTransaction: Undo Paste clipboard contents
+[2022.11.04-20.36.16:343][396]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.16:343][396]LogEditorTransaction: Undo Create Pin Link
+[2022.11.04-20.36.16:557][402]Cmd: TRANSACTION UNDO
+[2022.11.04-20.36.16:558][402]LogEditorTransaction: Undo Create Pin Link
+[2022.11.04-20.36.19:807][553]LogEditorTransaction: Undo Create Pin Link
+[2022.11.04-20.36.20:079][556]LogEditorTransaction: Undo Create Pin Link
+[2022.11.04-20.36.22:419][658]LogEditorTransaction: Undo Delete current selection
+[2022.11.04-20.36.32:085][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset" SILENT=true
+[2022.11.04-20.36.32:101][109]LogSavePackage: Moving output files for package: /Game/BP_Player
+[2022.11.04-20.36.32:101][109]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/BP_Player252130EE4DA6C1058B6260AA8D9EDDDA.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset'
+[2022.11.04-20.36.32:115][109]AssetCheck: New page: Asset Save: BP_Player
+[2022.11.04-20.36.32:115][109]LogContentValidation: Display: Validating Blueprint /Game/BP_Player.BP_Player
+[2022.11.04-20.36.37:248][354]BlueprintLog: New page: Compile BP_Player
+[2022.11.04-20.36.37:339][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2022.11.04-20.36.37:360][354]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_Player_C /Engine/Transient.World_2:PersistentLevel.BP_Player_C_53
+	Function /Game/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player:008E
+[2022.11.04-20.36.38:686][413]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.04-20.36.38:693][413]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.04-20.36.38:693][413]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.04-20.36.38:693][413]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.04-20.36.38:694][413]LogWorldPartition: Display: ValidateSingleActorReferer took 11 us
+[2022.11.04-20.36.38:694][413]LogWorldPartition: Display: GetPartitionedActors took 102 us
+[2022.11.04-20.36.38:695][413]LogWorldPartition: Display: GenerateStreaming took 1 ms
+[2022.11.04-20.36.38:695][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.04-20.36.38:695][413]PIE: New page: PIE session: Map (4 nov. 2022 à 22:36:38)
+[2022.11.04-20.36.38:695][413]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:719][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.36.38:720][413]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L0_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_4_0" parameter 'NormalTexture' assigned texture "BaseFlattenNormalMap_VT" requires non-virtual texture
+[2022.11.04-20.36.38:722][413]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.04-20.36.38:722][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026602s)
+[2022.11.04-20.36.38:722][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map.Map to /Game/UEDPIE_0_Map.Map (0.026659s)
+[2022.11.04-20.36.38:722][413]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-20.36.38:722][413]LogAIModule: Creating AISystem for world Map
+[2022.11.04-20.36.38:723][413]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.04-20.36.38:723][413]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.04-20.36.38:727][413]LogWorldPartition: Display: WorldPartition initialize took 4 ms
+[2022.11.04-20.36.38:727][413]LogPlayLevel: PIE: World Init took: (0.005610s)
+[2022.11.04-20.36.38:772][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2022.11.04-20.36.38:775][413]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2022.11.04-20.36.38:775][413]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.04-20.36.38:775][413]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.04-20.36.38:775][413]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.04-20.36.38:775][413]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.04-20.36.38:775][413]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.04-20.36.38:775][413]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.04-20.36.38:775][413]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.04-20.36.38:775][413]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.04-20.36.38:775][413]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.04-20.36.38:775][413]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.04-20.36.38:775][413]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.04-20.36.38:777][413]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.04-20.36.38:798][413]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (2- GSP 370)
+[2022.11.04-20.36.38:798][413]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.04-20.36.38:798][413]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.04-20.36.38:799][413]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.04-20.36.38:799][413]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2022.11.04-20.36.38:799][413]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2022.11.04-20.36.38:801][413]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2022.11.04-20.36.38:801][413]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2022.11.04-20.36.38:801][413]LogInit: FAudioDevice initialized.
+[2022.11.04-20.36.38:801][413]LogAudio: Display: Audio Device (ID: 43) registered with world 'Map'.
+[2022.11.04-20.36.38:817][413]LogLoad: Game class is 'BP_Gamemode_C'
+[2022.11.04-20.36.38:820][413]LogWorld: Bringing World /Game/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2022.11.04-21.36.38
+[2022.11.04-20.36.38:820][413]LogWorld: Bringing up level for play took: 0.003177
+[2022.11.04-20.36.38:822][413]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2022.11.04-20.36.38:823][413]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=86073.234 Y=-15966.415 Z=9862.329
+[2022.11.04-20.36.38:823][413]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(12), CellsToLoad(0), CellsToUnload(0)
+[2022.11.04-20.36.38:823][413]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=86073.234 Y=-15966.415 Z=9862.329,P=0.000000 Y=0.000000 R=0.000000
+[2022.11.04-20.36.38:825][413]LogStreaming: Display: FlushAsyncLoading: 28 QueuedPackages, 0 AsyncPackages
+[2022.11.04-20.36.38:943][413]PIE: Server logged in
+[2022.11.04-20.36.38:944][413]PIE: Play in editor total start time 0,252 seconds.
+[2022.11.04-20.36.45:647][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-20.36.45:647][705]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map
+[2022.11.04-20.36.45:657][705]LogWorld: UWorld::CleanupWorld for Map, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-20.36.45:659][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-20.36.45:686][705]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.04-20.36.45:691][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-20.36.45:738][705]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.04-20.36.45:739][705]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2022.11.04-20.36.45:740][705]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2022.11.04-20.36.45:744][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-20.36.45:750][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2022.11.04-20.36.45:817][706]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2022.11.04-20.36.59:743][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset" SILENT=true
+[2022.11.04-20.36.59:760][310]LogSavePackage: Moving output files for package: /Game/BP_Player
+[2022.11.04-20.36.59:761][310]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/BP_Player68C3A3BD4C47947C89ECF9921C5C4C87.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset'
+[2022.11.04-20.36.59:774][310]AssetCheck: New page: Asset Save: BP_Player
+[2022.11.04-20.36.59:774][310]LogContentValidation: Display: Validating Blueprint /Game/BP_Player.BP_Player
+[2022.11.04-20.37.01:234][377]BlueprintLog: New page: Compile BP_Player
+[2022.11.04-20.37.01:312][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.11.04-20.37.01:333][377]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_Player_C /Engine/Transient.World_2:PersistentLevel.BP_Player_C_54
+	Function /Game/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player:008E
+[2022.11.04-20.37.02:278][416]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.04-20.37.02:286][416]LogWorldPartition: Display: GenerateStreaming started...
+[2022.11.04-20.37.02:286][416]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.11.04-20.37.02:286][416]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.11.04-20.37.02:286][416]LogWorldPartition: Display: ValidateSingleActorReferer took 8 us
+[2022.11.04-20.37.02:286][416]LogWorldPartition: Display: GetPartitionedActors took 72 us
+[2022.11.04-20.37.02:287][416]LogWorldPartition: Display: GenerateStreaming took 748 us
+[2022.11.04-20.37.02:287][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.04-20.37.02:287][416]PIE: New page: PIE session: Map (4 nov. 2022 à 22:37:02)
+[2022.11.04-20.37.02:287][416]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Map
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y0_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-2_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-2_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X-1_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X-1_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X-1_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X1_Y1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X1_Y1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:311][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:312][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:312][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L2_X0_Y-1_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:312][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:312][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0" parameter 'NormalTexture' assigned texture "HLOD0_OpenWorld_MainGrid_L1_X0_Y-2_DL0T_LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0_Normal" requires non-virtual texture
+[2022.11.04-20.37.02:312][416]LogMaterial: Error: MaterialInstance "M_HLOD0_OpenWorld_MainGrid_L0_X0_Y0_DL0LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_4_0" parameter 'NormalTexture' assigned texture "BaseFlattenNormalMap_VT" requires non-virtual texture
+[2022.11.04-20.37.02:313][416]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.11.04-20.37.02:313][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026088s)
+[2022.11.04-20.37.02:313][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map.Map to /Game/UEDPIE_0_Map.Map (0.026161s)
+[2022.11.04-20.37.02:314][416]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-20.37.02:314][416]LogAIModule: Creating AISystem for world Map
+[2022.11.04-20.37.02:314][416]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.04-20.37.02:315][416]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.11.04-20.37.02:319][416]LogWorldPartition: Display: WorldPartition initialize took 4 ms
+[2022.11.04-20.37.02:320][416]LogPlayLevel: PIE: World Init took: (0.006015s)
+[2022.11.04-20.37.02:365][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2022.11.04-20.37.02:367][416]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2022.11.04-20.37.02:367][416]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.04-20.37.02:367][416]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.04-20.37.02:367][416]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.04-20.37.02:367][416]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.04-20.37.02:367][416]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.04-20.37.02:368][416]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.04-20.37.02:368][416]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.04-20.37.02:368][416]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.04-20.37.02:368][416]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.04-20.37.02:368][416]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.04-20.37.02:368][416]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.04-20.37.02:370][416]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.04-20.37.02:391][416]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (2- GSP 370)
+[2022.11.04-20.37.02:391][416]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.04-20.37.02:391][416]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.04-20.37.02:391][416]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.04-20.37.02:391][416]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2022.11.04-20.37.02:391][416]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2022.11.04-20.37.02:393][416]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2022.11.04-20.37.02:393][416]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2022.11.04-20.37.02:393][416]LogInit: FAudioDevice initialized.
+[2022.11.04-20.37.02:393][416]LogAudio: Display: Audio Device (ID: 44) registered with world 'Map'.
+[2022.11.04-20.37.02:406][416]LogLoad: Game class is 'BP_Gamemode_C'
+[2022.11.04-20.37.02:411][416]LogWorld: Bringing World /Game/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2022.11.04-21.37.02
+[2022.11.04-20.37.02:411][416]LogWorld: Bringing up level for play took: 0.004955
+[2022.11.04-20.37.02:413][416]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2022.11.04-20.37.02:414][416]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=85781.224 Y=-12839.266 Z=7980.588
+[2022.11.04-20.37.02:414][416]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(12), CellsToLoad(0), CellsToUnload(0)
+[2022.11.04-20.37.02:414][416]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=85781.224 Y=-12839.266 Z=7980.588,P=0.000000 Y=0.000000 R=0.000000
+[2022.11.04-20.37.02:417][416]LogStreaming: Display: FlushAsyncLoading: 28 QueuedPackages, 0 AsyncPackages
+[2022.11.04-20.37.02:536][416]PIE: Server logged in
+[2022.11.04-20.37.02:537][416]PIE: Play in editor total start time 0,253 seconds.
+[2022.11.04-20.37.07:387][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-20.37.07:387][633]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Map
+[2022.11.04-20.37.07:398][633]LogWorld: UWorld::CleanupWorld for Map, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-20.37.07:399][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-20.37.07:424][633]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.04-20.37.07:429][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-20.37.07:476][633]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.04-20.37.07:477][633]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2022.11.04-20.37.07:478][633]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2022.11.04-20.37.07:482][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-20.37.07:488][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.11.04-20.37.07:561][634]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2022.11.04-20.40.23:172][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.11.04-20.40.23:176][455]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Map/1/UQ/21J694BMBM5Z1QH7YETKAG_Auto8
+[2022.11.04-20.40.23:176][455]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/21J694BMBM5Z1QH7YETKAG_Auto88106C21A4D10F5D4D8EA6AA9808244B0.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/Autosaves/Game/__ExternalActors__/Map/1/UQ/21J694BMBM5Z1QH7YETKAG_Auto8.uasset'
+[2022.11.04-20.40.23:178][455]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Map/B/FU/81RFJBY8XQ3AXJ86ZW8TFE_Auto8
+[2022.11.04-20.40.23:178][455]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/81RFJBY8XQ3AXJ86ZW8TFE_Auto83FEA5CC8495009F76CDAC68586ADF26A.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/Autosaves/Game/__ExternalActors__/Map/B/FU/81RFJBY8XQ3AXJ86ZW8TFE_Auto8.uasset'
+[2022.11.04-20.40.23:178][455]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map' took 0.059
+[2022.11.04-20.40.23:178][455]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.059
+[2022.11.04-20.40.23:178][455]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BP_Player] ([2] browsable assets)...
+[2022.11.04-20.40.23:201][455]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Player.BP_Player]
+[2022.11.04-20.40.23:201][455]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Player]
+[2022.11.04-20.40.23:201][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/Autosaves/Game/BP_Player_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2022.11.04-20.40.23:229][455]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BP_Player_Auto8
+[2022.11.04-20.40.23:229][455]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/BP_Player_Auto850BA5BA741CEBBAA47D84BB888B8054C.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/Autosaves/Game/BP_Player_Auto8.uasset'
+[2022.11.04-20.40.23:229][455]LogFileHelpers: Auto-saving content packages took 0.051
+[2022.11.04-20.40.48:804][815]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.04-20.41.09:129][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset" SILENT=true
+[2022.11.04-20.41.09:156][955]LogSavePackage: Moving output files for package: /Game/BP_Player
+[2022.11.04-20.41.09:156][955]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/BP_Player337A352B438A325F1F8DA692AE2C0285.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset'
+[2022.11.04-20.41.09:179][955]AssetCheck: New page: Asset Save: BP_Player
+[2022.11.04-20.41.09:179][955]LogContentValidation: Display: Validating Blueprint /Game/BP_Player.BP_Player
+[2022.11.04-20.41.15:601][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset" SILENT=true
+[2022.11.04-20.41.15:615][254]LogSavePackage: Moving output files for package: /Game/BP_Player
+[2022.11.04-20.41.15:615][254]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/BP_Player47E4D41348F4969D617743B4EE331831.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset'
+[2022.11.04-20.41.15:630][254]AssetCheck: New page: Asset Save: BP_Player
+[2022.11.04-20.41.15:630][254]LogContentValidation: Display: Validating Blueprint /Game/BP_Player.BP_Player
+[2022.11.04-20.41.20:960][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset" SILENT=true
+[2022.11.04-20.41.20:979][497]LogSavePackage: Moving output files for package: /Game/BP_Player
+[2022.11.04-20.41.20:980][497]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/BP_Player1A06AA7A4A78824B45C4C58AE90FB4F1.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset'
+[2022.11.04-20.41.20:996][497]AssetCheck: New page: Asset Save: BP_Player
+[2022.11.04-20.41.20:996][497]LogContentValidation: Display: Validating Blueprint /Game/BP_Player.BP_Player
+[2022.11.04-20.41.33:103][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset" SILENT=true
+[2022.11.04-20.41.33:116][ 55]LogSavePackage: Moving output files for package: /Game/BP_Player
+[2022.11.04-20.41.33:117][ 55]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/BP_Player0B45DB574861732687CBEFBF53104D73.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset'
+[2022.11.04-20.41.33:130][ 55]AssetCheck: New page: Asset Save: BP_Player
+[2022.11.04-20.41.33:130][ 55]LogContentValidation: Display: Validating Blueprint /Game/BP_Player.BP_Player
+[2022.11.04-20.41.34:165][101]BlueprintLog: New page: Compile BP_Player
+[2022.11.04-20.41.34:172][101]LogBlueprint: Error: [AssetLog] D:\Pantel_Corentin\Unreal_Project\RollingStone\Content\BP_Player.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2022.11.04-20.41.34:172][101]LogBlueprint: Error: [AssetLog] D:\Pantel_Corentin\Unreal_Project\RollingStone\Content\BP_Player.uasset: [Compiler] This blueprint (self) is not a CameraAnimInst, therefore ' Target ' must have a connection.
+[2022.11.04-20.41.34:246][101]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.11.04-20.41.39:806][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset" SILENT=true
+[2022.11.04-20.41.39:819][331]LogSavePackage: Moving output files for package: /Game/BP_Player
+[2022.11.04-20.41.39:819][331]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/BP_Player74A238C244BC605A3D2C429FA9D80D92.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset'
+[2022.11.04-20.41.39:832][331]AssetCheck: New page: Asset Save: BP_Player
+[2022.11.04-20.41.39:832][331]LogContentValidation: Display: Validating Blueprint /Game/BP_Player.BP_Player
+[2022.11.04-20.41.40:684][370]BlueprintLog: New page: Compile BP_Player
+[2022.11.04-20.41.40:691][370]LogBlueprint: Error: [AssetLog] D:\Pantel_Corentin\Unreal_Project\RollingStone\Content\BP_Player.uasset: [Compiler] This blueprint (self) is not a CameraAnimInst, therefore ' Target ' must have a connection.
+[2022.11.04-20.41.40:760][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.11.04-20.41.44:033][516]LogEditorTransaction: Undo Break Pin Links
+[2022.11.04-20.41.44:339][520]LogEditorTransaction: Undo Delete current selection
+[2022.11.04-20.41.46:422][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset" SILENT=true
+[2022.11.04-20.41.46:436][603]LogSavePackage: Moving output files for package: /Game/BP_Player
+[2022.11.04-20.41.46:436][603]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/BP_PlayerA6A9BA3A41FA1970FD0BB5AEFDF04648.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset'
+[2022.11.04-20.41.46:451][603]AssetCheck: New page: Asset Save: BP_Player
+[2022.11.04-20.41.46:451][603]LogContentValidation: Display: Validating Blueprint /Game/BP_Player.BP_Player
+[2022.11.04-20.41.47:011][630]BlueprintLog: New page: Compile BP_Player
+[2022.11.04-20.41.47:018][630]LogBlueprint: Error: [AssetLog] D:\Pantel_Corentin\Unreal_Project\RollingStone\Content\BP_Player.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2022.11.04-20.41.47:019][630]LogBlueprint: Error: [AssetLog] D:\Pantel_Corentin\Unreal_Project\RollingStone\Content\BP_Player.uasset: [Compiler] This blueprint (self) is not a CameraAnimInst, therefore ' Target ' must have a connection.
+[2022.11.04-20.41.47:091][630]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2022.11.04-20.41.54:218][955]BlueprintLog: New page: Compile BP_Player
+[2022.11.04-20.41.54:225][955]LogBlueprint: Error: [AssetLog] D:\Pantel_Corentin\Unreal_Project\RollingStone\Content\BP_Player.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2022.11.04-20.41.54:294][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2022.11.04-20.41.55:556][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset" SILENT=true
+[2022.11.04-20.41.55:568][  4]LogSavePackage: Moving output files for package: /Game/BP_Player
+[2022.11.04-20.41.55:569][  4]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/BP_Player7183D84948CCF8CB19353EAB5DD24605.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset'
+[2022.11.04-20.41.55:582][  4]AssetCheck: New page: Asset Save: BP_Player
+[2022.11.04-20.41.55:582][  4]LogContentValidation: Display: Validating Blueprint /Game/BP_Player.BP_Player
+[2022.11.04-20.41.56:505][ 47]BlueprintLog: New page: Compile BP_Player
+[2022.11.04-20.41.56:512][ 47]LogBlueprint: Error: [AssetLog] D:\Pantel_Corentin\Unreal_Project\RollingStone\Content\BP_Player.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2022.11.04-20.41.56:581][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.11.04-20.42.00:483][223]BlueprintLog: New page: Compile BP_Player
+[2022.11.04-20.42.00:561][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2022.11.04-20.42.00:583][223]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_Player_C /Engine/Transient.World_2:PersistentLevel.BP_Player_C_60
+	Function /Game/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player:008E
+[2022.11.04-20.42.01:035][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Player" FILE="../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset" SILENT=true
+[2022.11.04-20.42.01:048][236]LogSavePackage: Moving output files for package: /Game/BP_Player
+[2022.11.04-20.42.01:048][236]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/BP_Player438DA4F24CCC48EBE8A2AD89CDE3644F.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/BP_Player.uasset'
+[2022.11.04-20.42.01:061][236]AssetCheck: New page: Asset Save: BP_Player
+[2022.11.04-20.42.01:062][236]LogContentValidation: Display: Validating Blueprint /Game/BP_Player.BP_Player
+[2022.11.04-20.42.05:022][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2022.11.04-20.42.05:102][417]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/1/UQ/21J694BMBM5Z1QH7YETKAG
+[2022.11.04-20.42.05:102][417]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/21J694BMBM5Z1QH7YETKAG9036D9104E550DC3B60A6AB8839EADC3.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/__ExternalActors__/Map/1/UQ/21J694BMBM5Z1QH7YETKAG.uasset'
+[2022.11.04-20.42.05:106][417]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Map/B/FU/81RFJBY8XQ3AXJ86ZW8TFE
+[2022.11.04-20.42.05:107][417]LogSavePackage: Moving '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Saved/81RFJBY8XQ3AXJ86ZW8TFEA634862440C70A6B1D465CAC0D0FE2F3.tmp' to '../../../../Pantel_Corentin/Unreal_Project/RollingStone/Content/__ExternalActors__/Map/B/FU/81RFJBY8XQ3AXJ86ZW8TFE.uasset'
+[2022.11.04-20.42.05:129][417]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.04-20.42.05:129][417]LogContentValidation: Display: Validating BP_Player_C /Game/Map.Map:PersistentLevel.BP_Player_C_UAID_10E7C619EF5F854601_1351582488
+[2022.11.04-20.42.05:129][417]LogContentValidation: Display: Validating BP_Obstacle_C /Game/Map.Map:PersistentLevel.BP_Obstacle_C_UAID_10E7C619EF5F874601_1512568841
+[2022.11.04-20.42.10:817][681]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
