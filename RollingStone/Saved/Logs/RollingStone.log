@@ -5171,3 +5171,103 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.06-00.51.02:512][985]LogContentValidation: Display: Validating World /Game/LEVEL/Level_1_final.Level_1_final
 [2022.11.06-00.51.13:011][748]LogSlate: Window 'Message Log' being destroyed
 [2022.11.06-00.51.13:029][748]LogSlate: Window 'Message Log' being destroyed
+[2022.11.06-01.10.37:673][224]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.06-01.10.37:673][224]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.06-01.10.38:898][297]LogContentBrowser: Deferred new asset file creation: Level_1_final1
+[2022.11.06-01.10.38:918][297]LogContentBrowser: Creating deferred item: Level_1_final1
+[2022.11.06-01.10.38:934][298]LogContentBrowser: Renaming the item being created (Deferred Item: Level_1_final1).
+[2022.11.06-01.10.39:938][368]LogContentBrowser: Attempting asset rename: Level_1_final1 -> Level_1_final1
+[2022.11.06-01.10.40:346][368]LogContentBrowser: End creating deferred item Level_1_final1
+[2022.11.06-01.10.41:858][459]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.06-01.10.41:859][459]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.06-01.10.48:361][907]LogContentBrowser: Attempting asset rename: Level_1_final1 -> Level_2_final1
+[2022.11.06-01.10.48:457][907]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.06-01.10.48:885][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LEVEL/Level_2_final1" FILE="../../../../G2_Ribes_Lucas-/rolingston/RollingStone/Content/LEVEL/Level_2_final1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.11.06-01.10.48:912][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.11.06-01.10.49:114][907]LogSavePackage: Moving output files for package: /Game/LEVEL/Level_2_final1
+[2022.11.06-01.10.49:115][907]LogSavePackage: Moving '../../../../G2_Ribes_Lucas-/rolingston/RollingStone/Saved/Level_2_final1A76F485B4F4C8614981D6FB89FC45413.tmp' to '../../../../G2_Ribes_Lucas-/rolingston/RollingStone/Content/LEVEL/Level_2_final1.umap'
+[2022.11.06-01.10.49:452][907]LogFileHelpers: Saving map 'Level_2_final1' took 1.011
+[2022.11.06-01.10.49:486][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.11.06-01.10.49:497][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.11.06-01.10.49:506][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.11.06-01.10.49:509][907]AssetCheck: New page: Asset Save: Level_2_final1
+[2022.11.06-01.10.49:510][907]LogContentValidation: Display: Validating World /Game/LEVEL/Level_2_final1.Level_2_final1
+[2022.11.06-01.10.50:724][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.11.06-01.10.50:726][987]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LEVEL/Level_2_final1.Level_2_final1
+[2022.11.06-01.10.50:726][987]Cmd: MAP LOAD FILE="../../../../G2_Ribes_Lucas-/rolingston/RollingStone/Content/LEVEL/Level_2_final1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.06-01.10.50:726][987]LightingResults: New page: Lighting Build
+[2022.11.06-01.10.50:726][987]LoadErrors: New page: Loading map: Level_2_final1.umap
+[2022.11.06-01.10.50:751][987]LogWorld: UWorld::CleanupWorld for Level_1_final, bSessionEnded=true, bCleanupResources=true
+[2022.11.06-01.10.50:751][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.06-01.10.50:752][987]MapCheck: New page: Map Check
+[2022.11.06-01.10.50:752][987]LightingResults: New page: Lighting Build
+[2022.11.06-01.10.50:759][987]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.06-01.10.50:777][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.11.06-01.10.50:783][987]LogWorld: UWorld::CleanupWorld for Level_2_final1, bSessionEnded=true, bCleanupResources=true
+[2022.11.06-01.10.50:798][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.06-01.10.50:816][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.11.06-01.10.50:825][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.11.06-01.10.50:888][987]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level_2_final1'.
+[2022.11.06-01.10.50:888][987]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.06-01.10.50:888][987]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.06-01.10.50:888][987]LogAIModule: Creating AISystem for world Level_2_final1
+[2022.11.06-01.10.51:359][987]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.06-01.10.51:392][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.11.06-01.10.51:402][987]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.06-01.10.51:402][987]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,15ms to complete.
+[2022.11.06-01.10.51:402][987]LogFileHelpers: Loading map 'Level_2_final1' took 0.676
+[2022.11.06-01.10.57:611][430]LogContentBrowser: Attempting asset rename: Level_2_final1 -> Level_2_final
+[2022.11.06-01.10.57:692][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LEVEL/Level_2_final" FILE="../../../../G2_Ribes_Lucas-/rolingston/RollingStone/Content/LEVEL/Level_2_final.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.11.06-01.10.57:701][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.11.06-01.10.57:896][430]LogSavePackage: Moving output files for package: /Game/LEVEL/Level_2_final
+[2022.11.06-01.10.57:896][430]LogSavePackage: Moving '../../../../G2_Ribes_Lucas-/rolingston/RollingStone/Saved/Level_2_final8C931C81415B098069F4A8BF80D8566D.tmp' to '../../../../G2_Ribes_Lucas-/rolingston/RollingStone/Content/LEVEL/Level_2_final.umap'
+[2022.11.06-01.10.57:908][430]LogFileHelpers: Saving map 'Level_2_final' took 0.216
+[2022.11.06-01.10.57:928][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2022.11.06-01.10.57:935][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.11.06-01.10.57:943][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.11.06-01.10.57:948][430]AssetCheck: New page: Asset Save: Level_2_final
+[2022.11.06-01.10.57:948][430]LogContentValidation: Display: Validating World /Game/LEVEL/Level_2_final.Level_2_final
+[2022.11.06-01.10.59:105][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.11.06-01.10.59:107][516]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LEVEL/Level_2_final.Level_2_final
+[2022.11.06-01.10.59:107][516]Cmd: MAP LOAD FILE="../../../../G2_Ribes_Lucas-/rolingston/RollingStone/Content/LEVEL/Level_2_final.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.06-01.10.59:107][516]LightingResults: New page: Lighting Build
+[2022.11.06-01.10.59:107][516]LoadErrors: New page: Loading map: Level_2_final.umap
+[2022.11.06-01.10.59:152][516]LogWorld: UWorld::CleanupWorld for Level_2_final, bSessionEnded=true, bCleanupResources=true
+[2022.11.06-01.10.59:152][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.06-01.10.59:153][516]MapCheck: New page: Map Check
+[2022.11.06-01.10.59:153][516]LightingResults: New page: Lighting Build
+[2022.11.06-01.10.59:160][516]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.06-01.10.59:178][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.11.06-01.10.59:242][516]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level_2_final'.
+[2022.11.06-01.10.59:242][516]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.06-01.10.59:242][516]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.06-01.10.59:242][516]LogAIModule: Creating AISystem for world Level_2_final
+[2022.11.06-01.10.59:725][516]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.06-01.10.59:754][516]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.11.06-01.10.59:763][516]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.06-01.10.59:763][516]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,14ms to complete.
+[2022.11.06-01.10.59:763][516]LogFileHelpers: Loading map 'Level_2_final' took 0.657
+[2022.11.06-01.22.58:260][902]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.06-01.22.58:260][902]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.06-01.22.59:097][955]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.06-01.22.59:097][955]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.06-01.23.01:194][ 96]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.06-01.23.01:194][ 96]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.06-01.23.06:960][494]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.06-01.23.06:960][494]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.06-01.23.12:261][842]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/object_test/sol.sol
+[2022.11.06-01.23.12:345][842]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.06-01.23.12:381][842]LogTexture: Display: Waiting for textures to be ready 0/1 (/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1) ...
+[2022.11.06-01.23.12:709][842]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2022.11.06-01.48.29:685][521]LogDerivedDataCache: C:/Users/RIBE3101/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.666 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.06-01.58.42:993][120]LogHttp: Warning: 00000926E4F06E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1778E042-4991-4FF9-0EBA-449D84D30503%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=12e40a004ca8be5554104290d4f708df%7C45dc4f7e974e4431a8ac7d5b9176ef85%7C583592a2-eaa2-44bb-96bd-2b69f07c7c60&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.11.06-01.58.42:993][120]LogHttp: Warning: 00000926E4F06E00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2022.11.06-01.58.42:993][120]LogHttp: Warning: 00000926E4F06E00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x926958c0000 [can pipeline])
+[2022.11.06-01.58.42:993][120]LogHttp: Warning: 00000926E4F06E00: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2022.11.06-01.58.42:993][120]LogHttp: Warning: 00000926E4F06E00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.231.109.39) port 443 (#0))
+[2022.11.06-01.58.42:993][120]LogHttp: Warning: 00000926E4F06E00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.11.06-01.58.42:993][120]LogHttp: Warning: 00000926E4F06E00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2022.11.06-01.58.42:993][120]LogHttp: Warning: 00000926E4F06E00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.11.06-01.58.42:993][120]LogHttp: Warning: 00000926E4F06E00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.11.06-01.58.42:994][120]LogHttp: Warning: 00000926E4F06E00: libcurl info message cache 7 (Closing connection 0)
+[2022.11.06-01.58.42:994][120]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1778E042-4991-4FF9-0EBA-449D84D30503%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=12e40a004ca8be5554104290d4f708df%7C45dc4f7e974e4431a8ac7d5b9176ef85%7C583592a2-eaa2-44bb-96bd-2b69f07c7c60&AppEnvironment=datacollector-binary&UploadType=eteventstream
