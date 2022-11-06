@@ -14960,3 +14960,4 @@ Script Stack (0 frames):
 [2022.11.06-02.42.01:987][110]LogContentValidation: Display: Validating Texture2D /Game/mesh/texture/TX_drapeau_Savoie_Color.TX_drapeau_Savoie_Color
 [2022.11.06-02.42.01:987][110]LogContentValidation: Display: Validating StaticMesh /Game/mesh/mesh/Piolets.Piolets
 [2022.11.06-02.42.01:987][110]LogContentValidation: Display: Validating Material /Game/mesh/material/NewMaterial.NewMaterial
+[2022.11.06-02.44.19:129][606]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
