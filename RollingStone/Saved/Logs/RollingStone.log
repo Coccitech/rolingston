@@ -388,3 +388,596 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.06-01.06.59:426][  0]LogWindowsTextInputMethodSystem: Activated input method: French (France) - (Keyboard).
 [2022.11.06-01.06.59:490][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
 [2022.11.06-01.06.59:490][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.11.06-01.07.01:885][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2022.11.06-01.07.01:888][  0]LogD3D12RHI: [Aftermath] Aftermath crash dumping enabled
+[2022.11.06-01.07.01:888][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2022.11.06-01.07.01:976][  0]LogD3D12RHI: [Aftermath] Aftermath enabled and primed
+[2022.11.06-01.07.01:976][  0]LogD3D12RHI: [Aftermath] Aftermath resource tracking enabled
+[2022.11.06-01.07.01:976][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2022.11.06-01.07.01:976][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2022.11.06-01.07.01:976][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2022.11.06-01.07.01:976][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2022.11.06-01.07.01:976][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2022.11.06-01.07.01:976][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2022.11.06-01.07.01:976][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2022.11.06-01.07.01:976][  0]LogD3D12RHI: D3D12 ray tracing tier 1.0 is supported.
+[2022.11.06-01.07.01:976][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2022.11.06-01.07.01:976][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2022.11.06-01.07.01:976][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2022.11.06-01.07.01:976][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2022.11.06-01.07.02:059][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2022.11.06-01.07.02:064][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2022.11.06-01.07.02:076][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2022.11.06-01.07.02:086][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2022.11.06-01.07.02:086][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2022.11.06-01.07.02:160][  0]LogD3D12RHI: Warning: Ray tracing is disabled for NVIDIA cards with the Pascal architecture.
+[2022.11.06-01.07.02:160][  0]LogD3D12RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2022.11.06-01.07.02:160][  0]LogWindows: Attached monitors:
+[2022.11.06-01.07.02:160][  0]LogWindows:     resolution: 1920x1080, work area: (-1920, 0) -> (0, 1040), device: '\\.\DISPLAY1'
+[2022.11.06-01.07.02:160][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1040), device: '\\.\DISPLAY2' [PRIMARY]
+[2022.11.06-01.07.02:160][  0]LogWindows: Found 2 attached monitors.
+[2022.11.06-01.07.02:160][  0]LogWindows: EnumDisplayDevices:
+[2022.11.06-01.07.02:160][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1), name: '\\.\DISPLAY1'
+[2022.11.06-01.07.02:160][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1), name: '\\.\DISPLAY2'
+[2022.11.06-01.07.02:161][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0), name: '\\.\DISPLAY3'
+[2022.11.06-01.07.02:161][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0), name: '\\.\DISPLAY4'
+[2022.11.06-01.07.02:161][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.11.06-01.07.02:161][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2022.11.06-01.07.02:161][  0]LogD3D12RHI:   Driver Version: 516.59 (internal:31.0.15.1659, unified:516.59)
+[2022.11.06-01.07.02:161][  0]LogD3D12RHI:      Driver Date: 6-23-2022
+[2022.11.06-01.07.02:161][  0]LogRHI: Texture pool is 3328 MB (70% of 4755 MB)
+[2022.11.06-01.07.02:161][  0]LogD3D12RHI: Async texture creation enabled
+[2022.11.06-01.07.02:161][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2022.11.06-01.07.02:174][  0]LogRHI: GeForceNow SDK initialized: 0
+[2022.11.06-01.07.02:240][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/RollingStone.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Intermediate/TurnkeyReport_0.log" -log="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Intermediate/TurnkeyLog_0.log" -project="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/RollingStone.uproject"  -platform=all'
+[2022.11.06-01.07.02:240][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""E:/unreal_5.0.3/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/RollingStone.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Intermediate/TurnkeyReport_0.log" -log="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Intermediate/TurnkeyLog_0.log" -project="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/RollingStone.uproject"  -platform=all" ]
+[2022.11.06-01.07.02:390][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 9009
+[2022.11.06-01.07.02:390][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2022.11.06-01.07.02:499][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2022.11.06-01.07.02:499][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2022.11.06-01.07.02:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.11.06-01.07.02:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.11.06-01.07.02:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.11.06-01.07.02:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.11.06-01.07.02:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.11.06-01.07.02:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.11.06-01.07.02:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.11.06-01.07.02:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.11.06-01.07.02:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.11.06-01.07.02:547][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.11.06-01.07.02:615][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2022.11.06-01.07.02:615][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2022.11.06-01.07.02:646][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.11.06-01.07.02:646][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.11.06-01.07.02:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.11.06-01.07.02:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2022.11.06-01.07.02:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.11.06-01.07.02:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.11.06-01.07.02:711][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2022.11.06-01.07.02:711][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2022.11.06-01.07.02:711][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2022.11.06-01.07.02:734][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.11.06-01.07.02:734][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.11.06-01.07.02:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.11.06-01.07.02:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2022.11.06-01.07.02:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.11.06-01.07.02:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.11.06-01.07.02:780][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2022.11.06-01.07.02:865][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.11.06-01.07.02:880][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2022.11.06-01.07.02:880][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2022.11.06-01.07.02:880][  0]LogTargetPlatformManager:   ADPCM
+[2022.11.06-01.07.02:880][  0]LogTargetPlatformManager:   PCM
+[2022.11.06-01.07.02:909][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2022.11.06-01.07.02:909][  0]LogTargetPlatformManager:   BINKA
+[2022.11.06-01.07.02:909][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2022.11.06-01.07.02:909][  0]LogTargetPlatformManager:   OGG
+[2022.11.06-01.07.02:909][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2022.11.06-01.07.02:909][  0]LogTargetPlatformManager:   OPUS
+[2022.11.06-01.07.03:120][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager:   SF_METAL
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2022.11.06-01.07.03:171][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2022.11.06-01.07.03:190][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2022.11.06-01.07.03:190][  0]LogTargetPlatformManager:   VVM_1_0
+[2022.11.06-01.07.03:190][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2022.11.06-01.07.03:190][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2022.11.06-01.07.03:190][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2022.11.06-01.07.03:190][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2022.11.06-01.07.03:190][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2022.11.06-01.07.03:190][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.11.06-01.07.03:190][  0]LogShaderCompilers: Display: Compiling shader autogen file: C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2022.11.06-01.07.03:191][  0]LogShaderCompilers: Display: Failed to delete old shader autogen file: C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2022.11.06-01.07.03:191][  0]LogShaderCompilers: Display: Shader autogen file written: C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2022.11.06-01.07.03:191][  0]LogShaderCompilers: Display: Compiling shader autogen file: C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2022.11.06-01.07.03:192][  0]LogShaderCompilers: Display: Failed to delete old shader autogen file: C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2022.11.06-01.07.03:192][  0]LogShaderCompilers: Display: Shader autogen file written: C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2022.11.06-01.07.03:194][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.11.06-01.07.03:194][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2022.11.06-01.07.03:194][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.06-01.07.03:195][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2022.11.06-01.07.03:221][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+[2022.11.06-01.07.03:221][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.06-01.07.03:221][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2022.11.06-01.07.03:263][  0]LogDerivedDataCache: Speed tests for C:/Users/CUER1012/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.04 seconds
+[2022.11.06-01.07.03:263][  0]LogDerivedDataCache: Display: Performance to C:/Users/CUER1012/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=27.30MBs, RandomWriteSpeed=123.71MBs. Assigned SpeedClass 'Local'
+[2022.11.06-01.07.03:264][  0]LogDerivedDataCache: Using Local data cache path C:/Users/CUER1012/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.11.06-01.07.03:264][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.11.06-01.07.03:265][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2022.11.06-01.07.03:272][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2022.11.06-01.07.03:272][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2022.11.06-01.07.03:273][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Intermediate/Shaders/WorkingDirectory/16616/).
+[2022.11.06-01.07.03:273][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/CUER1012/AppData/Local/Temp/UnrealShaderWorkingDir/2C52B460470FADF8AFA49082F6DF7268/'.
+[2022.11.06-01.07.03:273][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.11.06-01.07.03:273][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 5 workers.
+[2022.11.06-01.07.04:800][  0]LogSlate: Using FreeType 2.10.0
+[2022.11.06-01.07.04:817][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.11.06-01.07.05:066][  0]LogAssetRegistry: FAssetRegistry took 0.0122 seconds to start up
+[2022.11.06-01.07.05:071][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2022.11.06-01.07.05:285][  0]LogSerialization: UsePackageTrailer: 'false'
+[2022.11.06-01.07.05:286][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2022.11.06-01.07.05:636][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2022.11.06-01.07.05:636][  0]LogDeviceProfileManager: Active device profile: [00000A4293BB5B00][00000A4288710000 50] WindowsEditor
+[2022.11.06-01.07.05:636][  0]LogDeviceProfileManager: Profiles: [00000A4293BB55C0][00000A4288715000 50] Windows, [00000A4293BB5B00][00000A4288710000 50] WindowsEditor, [00000A4293BB39C0][00000A42886B7800 50] WindowsServer, [00000A4293BB1A40][00000A428863C800 50] WindowsClient, [00000A4293BB2300][00000A4288712800 50] IOS, [00000A4293BB5CC0][00000A427B5CA000 50] iPadAir2, [00000A4293BB4EC0][00000A4293D92800 50] IPadPro, [00000A4293BB6040][00000A4293D90000 50] iPadAir3, [00000A4293BB4D00][00000A4293D97800 50] iPadAir4, [00000A4293BB0FC0][00000A4293D9A000 50] iPadMini4, [00000A4293BB16C0][00000A4293D9C800 50] iPadMini5, [00000A4293BB6200][00000A428CFCC800 50] iPadMini6, [00000A4293BB8F80][00000A4293D65000 50] iPhone6S, [00000A4293BB9300][00000A4293D62800 50] iPhone7, [00000A4293BB9680][00000A4293D60000 50] iPodTouch7, [00000A4293BB4600][00000A4293D6A000 50] iPhone6SPlus, [00000A4293BB24C0][00000A4293D6C800 50] iPhone7Plus, [00000A4293BB1DC0][00000A4293D95000 50] iPhoneSE, [00000A4293BB5240][00000A4293DA0000 50] iPhone8, [00000A4293BB7E00][00000A4293DA5000 50] iPhone8Plus, [00000A4293BB7540][00000A4293DA7800 50] iPhoneX, [00000A4293BB6C80][00000A4293DAA000 50] iPhoneXS, [00000A4293BB3F00][00000A4293DAC800 50] iPhoneXSMax, [00000A4293BB9140][00000A4293D67800 50] iPhoneXR, [00000A4293BB1F80][00000A4293D80000 50] iPhone11, [00000A4293BB40C0][00000A4293D85000 50] iPhone11Pro, [00000A4293BB8880][00000A4293D87800 50] iPhone11ProMax, [00000A4293BB2F40][00000A4293D8A000 50] iPhoneSE2, [00000A4293BB4280][00000A4293D8C800 50] iPhone12Mini, [00000A4293BB3D40][00000A4293DA2800 50] iPhone12, [00000A4293BB71C0][00000A4293E10000 50] iPhone12Pro, [00000A4293BB8DC0][00000A4293E15000 50] iPhone12ProMax, [00000A4293BB01C0][00000A4293E17800 50] iPhone13Mini, [00000A4293BB3640][00000A4293E1A000 50] iPhone13, [00000A4293BB5400][00000A4293E1C800 50] iPhone13Pro, [00000A4293BB8340][00000A4293D82800 50] iPhone13ProMax, [00000A4293BB1880][00000A4293E20000 50] iPadPro105, [00000A4293BB7380][00000A4293E25000 50] iPadPro129, [00000A4293BB6740][00000A4293E27800 50] iPadPro97, [00000A4293BB1180][00000A4293E2A000 50] iPadPro2_129, [00000A4293BB2840][00000A4293E2C800 50] iPad5, [00000A4293BB8A40][00000A4293E12800 50] iPad6, [00000A4293BB1C00][00000A4293E30000 50] iPad7, [00000A4293BB9840][00000A4293E35000 50] iPad8, [00000A4293BB5E80][00000A4293E37800 50] iPad9, [00000A4293BB2A00][00000A4293E3A000 50] iPadPro11, [00000A4293BB2140][00000A4293E3C800 50] iPadPro2_11, [00000A4293BB6580][00000A4293E22800 50] iPadPro3_11, [00000A4293BB3480][00000A4293E40000 50] iPadPro3_129, [00000A4293BB6AC0][00000A4293E45000 50] iPadPro4_129, [00000A4293BB7A80][00000A4293E47800 50] iPadPro5_129, [00000A4293BB32C0][00000A4293E4A000 50] AppleTV, [00000A4293BB47C0][00000A4293E4C800 50] AppleTV4K, [00000A4293BB86C0][00000A4293E32800 50] TVOS, [00000A4293BBB0C0][00000A4293E52800 50] Mac, [00000A4293BBB440][00000A4293E50000 50] MacEditor, [00000A4293BBA100][00000A4293E57800 50] MacClient, [00000A4293BB3B80][00000A4293E5A000 50] MacServer, [00000A4293BBB600][00000A4293E42800 50] Linux, [00000A4293BB6900][00000A4293E5C800 50] LinuxEditor, [00000A4293BB7FC0][00000A4293E70000 50] LinuxArm64Editor, [00000A4293BBAB80][00000A4293E75000 50] LinuxArm64, [00000A4293BB4B40][00000A4293E77800 50] LinuxClient, [00000A4293BB9BC0][00000A4293E7A000 50] LinuxArm64Client, [00000A4293BB6E40][00000A4293E7C800 50] LinuxServer, [00000A4293BB9D80][00000A4293E55000 50] LinuxArm64Server, [00000A4293BB1340][00000A4293E80000 50] Android, [00000A4293BBA640][00000A4293E85000 50] Android_Preview_OpenGL, [00000A4293BB4440][00000A4293E87800 50] Android_Preview_Vulkan, [00000A4293BB2D80][00000A4293E8A000 50] Android_Low, [00000A4293BB5080][00000A4293E8C800 50] Android_Mid, [00000A4293BBA800][00000A4293E72800 50] Android_High, [00000A4293BB2680][00000A4293E90000 50] Android_Default, [00000A4293BB9A00][00000A4293E95000 50] Android_Adreno4xx, [00000A4293BBAF00][00000A4293E97800 50] Android_Adreno5xx_Low, [00000A4293BB8500][00000A4293E9A000 50] Android_Adreno5xx, [00000A4293BBA9C0][00000A4293E9C800 50] Android_Adreno6xx, [00000A4293BB2BC0][00000A4293E82800 50] Android_Adreno6xx_Vulkan, [00000A4293BB3100][00000A4293EA0000 50] Android_Adreno7xx, [00000A4293BBB980][00000A4293EA5000 50] Android_Adreno7xx_Vulkan, [00000A4293BB9F40][00000A4293EA7800 50] Android_Mali_T6xx, [00000A4293BBA2C0][00000A4293EAA000 50] Android_Mali_T7xx, [00000A4293BB5940][00000A4293EAC800 50] Android_Mali_T8xx, [00000A4293BBBB40][00000A4293E92800 50] Android_Mali_G71, [00000A4293BB7000][00000A4293EB0000 50] Android_Mali_G72, [00000A4293BB7700][00000A4293EB5000 50] Android_Mali_G72_Vulkan, [00000A4293BB4980][00000A4293EB7800 50] Android_Mali_G76, [00000A4293BB94C0][00000A4293EBA000 50] Android_Mali_G76_Vulkan, [00000A4293BBB7C0][00000A4293EBC800 50] Android_Mali_G77, [00000A4293BBC780][00000A4293EA2800 50] Android_Mali_G77_Vulkan, [00000A4293BB3800][00000A4293EC0000 50] Android_Mali_G78, [00000A4293BBBD00][00000A4293EC5000 50] Android_Mali_G78_Vulkan, [00000A4293BB8C00][00000A4293EC7800 50] Android_Mali_G710, [00000A4293BB8180][00000A4293ECA000 50] Android_Mali_G710_Vulkan, [00000A4293BB78C0][00000A4293ECC800 50] Android_Xclipse_920, [00000A4293BBA480][00000A4293EB2800 50] Android_Xclipse_920_Vulkan, [00000A4293BBC240][00000A4293ED0000 50] Android_Vulkan_SM5, [00000A4293BBC400][00000A4293ED5000 50] Android_PowerVR_G6xxx, [00000A4293BBD040][00000A4293ED7800 50] Android_PowerVR_GT7xxx, [00000A4293BBD200][00000A4293EDA000 50] Android_PowerVR_GE8xxx, [00000A4293BBD740][00000A4293EDC800 50] Android_PowerVR_GM9xxx, [00000A4293BBD580][00000A4293EC2800 50] Android_PowerVR_GM9xxx_Vulkan, [00000A4293BB63C0][00000A4293EE0000 50] Android_TegraK1, [00000A4293BBDAC0][00000A4293EE5000 50] Android_Unknown_Vulkan, [00000A4293BBC5C0][00000A4293EE7800 50] Oculus_Quest, [00000A4293BBB280][00000A4293EEA000 50] Oculus_Quest2, [00000A4293BBE700][00000A4293EEC800 50] HoloLens, 
+[2022.11.06-01.07.05:636][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2022.11.06-01.07.05:771][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2022.11.06-01.07.06:480][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.11.06-01.07.06:480][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.11.06-01.07.06:480][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.11.06-01.07.06:480][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.11.06-01.07.06:481][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.11.06-01.07.06:581][  0]LogNetVersion: RollingStone 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 2267667633)
+[2022.11.06-01.07.07:126][  0]LogSlate: Border
+[2022.11.06-01.07.07:126][  0]LogSlate: BreadcrumbButton
+[2022.11.06-01.07.07:126][  0]LogSlate: Default
+[2022.11.06-01.07.07:126][  0]LogSlate: Icons.Save
+[2022.11.06-01.07.07:126][  0]LogSlate: Icons.Toolbar.Settings
+[2022.11.06-01.07.07:127][  0]LogSlate: ListView
+[2022.11.06-01.07.07:127][  0]LogSlate: SoftwareCursor_CardinalCross
+[2022.11.06-01.07.07:127][  0]LogSlate: SoftwareCursor_Grab
+[2022.11.06-01.07.07:127][  0]LogSlate: TableView.DarkRow
+[2022.11.06-01.07.07:127][  0]LogSlate: TableView.Row
+[2022.11.06-01.07.07:127][  0]LogSlate: TreeView
+[2022.11.06-01.07.08:341][  0]SourceControl: Source control is disabled
+[2022.11.06-01.07.08:541][  0]SourceControl: Source control is disabled
+[2022.11.06-01.07.08:541][  0]SourceControl: Source control is disabled
+[2022.11.06-01.07.08:734][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2022.11.06-01.07.08:734][  0]LogUObjectAllocator: 5584256 out of 0 bytes used by permanent object pool.
+[2022.11.06-01.07.08:734][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.11.06-01.07.14:192][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: B047A9F645EA7AEBA5DCF1817A4C1C5B | Instance: 6FAEF7704EE30F48DD19158F5DB6C80C (POSTE-G032-16616).
+[2022.11.06-01.07.14:534][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.11.06-01.07.14:621][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.11.06-01.07.14:730][  0]LogPython: Using Python 3.9.7
+[2022.11.06-01.07.16:947][  0]SourceControl: Source control is disabled
+[2022.11.06-01.07.16:998][  0]SourceControl: Source control is disabled
+[2022.11.06-01.07.17:072][  0]SourceControl: Source control is disabled
+[2022.11.06-01.07.17:167][  0]LogUProjectInfo: Found projects:
+[2022.11.06-01.07.19:625][  0]LogOpenImageDenoise: OIDN starting up
+[2022.11.06-01.07.19:793][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.11.06-01.07.19:920][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.06-01.07.19:920][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.06-01.07.20:531][  0]LogCollectionManager: Loaded 0 collections in 0.000983 seconds
+[2022.11.06-01.07.20:988][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/Collections/' took 0.00s
+[2022.11.06-01.07.20:988][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/Developers/CUER1012/Collections/' took 0.00s
+[2022.11.06-01.07.20:988][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/Collections/' took 0.00s
+[2022.11.06-01.07.21:437][  0]LogEngine: Initializing Engine...
+[2022.11.06-01.07.21:451][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2022.11.06-01.07.21:474][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.11.06-01.07.21:855][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.11.06-01.07.21:855][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.06-01.07.21:923][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.06-01.07.21:980][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.11.06-01.07.21:981][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.11.06-01.07.22:052][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2022.11.06-01.07.22:052][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2022.11.06-01.07.22:052][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2022.11.06-01.07.22:053][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.11.06-01.07.22:053][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.11.06-01.07.22:053][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.06-01.07.22:053][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.06-01.07.22:053][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.06-01.07.22:053][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.06-01.07.22:053][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.06-01.07.22:053][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.06-01.07.22:053][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.06-01.07.22:053][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.06-01.07.22:053][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.06-01.07.22:053][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.06-01.07.22:053][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.06-01.07.22:104][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.06-01.07.22:140][  0]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Astro A20 Game)
+[2022.11.06-01.07.22:140][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.06-01.07.22:141][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.06-01.07.22:141][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.06-01.07.22:142][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2022.11.06-01.07.22:142][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.11.06-01.07.22:143][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.11.06-01.07.22:143][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2022.11.06-01.07.22:143][  0]LogInit: FAudioDevice initialized.
+[2022.11.06-01.07.22:143][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.11.06-01.07.22:143][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.11.06-01.07.22:143][  0]LogInit: Texture streaming: Enabled
+[2022.11.06-01.07.22:254][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2022.11.06-01.07.22:279][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.11.06-01.07.22:330][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2022.11.06-01.07.22:366][  0]LogLiveCoding: Display: Starting LiveCoding
+[2022.11.06-01.07.22:366][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2022.11.06-01.07.28:584][  0]LogLiveCoding: Display: First instance in process group "UE_RollingStone_0x2667bb4d", spawning console
+[2022.11.06-01.07.28:584][  0]LogLiveCoding: Display: Waiting for server
+[2022.11.06-01.07.28:584][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2022.11.06-01.07.28:586][  0]LogInit: Transaction tracking system initialized
+[2022.11.06-01.07.28:770][  0]BlueprintLog: New page: Editor Load
+[2022.11.06-01.07.29:559][  0]LocalizationService: Localization service is disabled
+[2022.11.06-01.07.29:652][  0]TimingProfiler: Initialize
+[2022.11.06-01.07.29:652][  0]TimingProfiler: OnSessionChanged
+[2022.11.06-01.07.29:652][  0]LoadingProfiler: Initialize
+[2022.11.06-01.07.29:652][  0]LoadingProfiler: OnSessionChanged
+[2022.11.06-01.07.29:652][  0]NetworkingProfiler: Initialize
+[2022.11.06-01.07.29:652][  0]NetworkingProfiler: OnSessionChanged
+[2022.11.06-01.07.29:652][  0]MemoryProfiler: Initialize
+[2022.11.06-01.07.29:653][  0]MemoryProfiler: OnSessionChanged
+[2022.11.06-01.07.31:688][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/' took 0.01s
+[2022.11.06-01.07.31:688][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2022.11.06-01.07.31:969][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.11.06-01.07.31:971][  0]SourceControl: Source control is disabled
+[2022.11.06-01.07.31:971][  0]LogUnrealEdMisc: Loading editor; pre map load, took 41.138
+[2022.11.06-01.07.31:971][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/OpenWorld.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.06-01.07.31:971][  0]LightingResults: New page: Lighting Build
+[2022.11.06-01.07.31:979][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.11.06-01.07.31:979][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.06-01.07.31:979][  0]MapCheck: New page: Map Check
+[2022.11.06-01.07.31:979][  0]LightingResults: New page: Lighting Build
+[2022.11.06-01.07.31:987][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.06-01.07.31:990][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.11.06-01.07.32:040][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2022.11.06-01.07.32:047][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.06-01.07.32:049][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2022.11.06-01.07.32:049][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.11.06-01.07.32:049][  0]LogWorldPartition: UWorldPartition::Initialize(IsEditor=1, IsGame=0, IsCooking=0)
+[2022.11.06-01.07.32:323][  0]LogWorldPartition: Display: WorldPartition initialize took 273 ms
+[2022.11.06-01.07.32:534][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.06-01.07.32:543][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.11.06-01.07.32:543][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.06-01.07.32:554][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 10,98ms to complete.
+[2022.11.06-01.07.32:554][  0]LogFileHelpers: Loading map 'OpenWorld' took 0.582
+[2022.11.06-01.07.32:571][  0]LogUnrealEdMisc: Total Editor Startup Time, took 41.737
+[2022.11.06-01.07.32:571][  0]LogShaderCompilers: Display: ================================================
+[2022.11.06-01.07.32:571][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.06-01.07.32:571][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.11.06-01.07.32:571][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.11.06-01.07.32:571][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.11.06-01.07.32:571][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.06-01.07.32:571][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.11.06-01.07.32:571][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.11.06-01.07.32:571][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.11.06-01.07.32:571][  0]LogShaderCompilers: Display: ================================================
+[2022.11.06-01.07.32:741][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.06-01.07.32:748][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.06-01.07.32:756][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.06-01.07.32:764][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.06-01.07.32:837][  0]LogPakFile: Display: Mounted Pak file 'E:/unreal_5.0.3/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2022.11.06-01.07.32:837][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.06-01.07.32:843][  0]LogPakFile: Display: Mounted Pak file 'E:/unreal_5.0.3/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2022.11.06-01.07.32:843][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.06-01.07.32:848][  0]LogPakFile: Display: Mounted Pak file 'E:/unreal_5.0.3/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2022.11.06-01.07.32:848][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.06-01.07.32:853][  0]LogPakFile: Display: Mounted Pak file 'E:/unreal_5.0.3/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2022.11.06-01.07.32:853][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.06-01.07.32:864][  0]LogPakFile: Display: Mounted Pak file 'E:/unreal_5.0.3/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2022.11.06-01.07.32:864][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.06-01.07.32:870][  0]LogPakFile: Display: Mounted Pak file 'E:/unreal_5.0.3/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2022.11.06-01.07.32:870][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.06-01.07.32:874][  0]LogPakFile: Display: Mounted Pak file 'E:/unreal_5.0.3/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2022.11.06-01.07.32:874][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.06-01.07.32:879][  0]LogPakFile: Display: Mounted Pak file 'E:/unreal_5.0.3/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2022.11.06-01.07.32:879][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.06-01.07.32:883][  0]LogPakFile: Display: Mounted Pak file 'E:/unreal_5.0.3/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2022.11.06-01.07.32:883][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.06-01.07.32:915][  0]LogPakFile: Display: Mounted Pak file 'E:/unreal_5.0.3/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2022.11.06-01.07.32:915][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.11.06-01.07.32:915][  0]LogFeaturePack: Error: Error in Feature pack E:/unreal_5.0.3/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2022.11.06-01.07.33:271][  0]LogSlate: Took 0.009167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.06-01.07.33:280][  0]LogSlate: Took 0.005097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.11.06-01.07.33:288][  0]LogSlate: Took 0.006696 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.11.06-01.07.33:318][  0]LogViewport: Scene viewport resized to 1526x902, mode Windowed.
+[2022.11.06-01.07.37:113][  0]LogStall: Startup...
+[2022.11.06-01.07.37:115][  0]LogStall: Startup complete.
+[2022.11.06-01.07.37:171][  0]LogLoad: (Engine Initialization) Total time: 46.34 seconds
+[2022.11.06-01.07.37:171][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.11.06-01.07.37:195][  0]LogAssetRegistry: Asset discovery search completed in 32.1305 seconds
+[2022.11.06-01.07.37:198][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2022.11.06-01.07.37:355][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.11.06-01.07.47:662][ 31]LogSlate: Took 0.003938 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.06-01.07.47:666][ 31]LogSlate: Took 0.003983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.06-01.07.47:676][ 31]LogSlate: Took 0.003946 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.06-01.07.55:881][373]LogLinker: Warning: [AssetLog] C:\Users\CUER1012\Documents\GitHub\rolingston\RollingStone\Content\BluePrint\BP_obstTier1.uasset: Failed to load '/Engine/BasicShapes/GuardColor': Can't find file.
+[2022.11.06-01.07.55:881][373]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Engine/BasicShapes/GuardColor'
+[2022.11.06-01.07.56:005][373]LogStaticMesh: Display: Building static mesh sol...
+[2022.11.06-01.07.56:005][373]LogStaticMesh: Built static mesh [0.00s] /Game/object_test/sol.sol
+[2022.11.06-01.07.59:334][706]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.06-01.07.59:334][706]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.11.06-01.08.00:001][783]LogContentBrowser: Deferred new asset file creation: Level_1_final1
+[2022.11.06-01.08.00:012][783]LogContentBrowser: Creating deferred item: Level_1_final1
+[2022.11.06-01.08.00:020][784]LogContentBrowser: Renaming the item being created (Deferred Item: Level_1_final1).
+[2022.11.06-01.08.01:784][862]LogContentBrowser: Attempting asset rename: Level_1_final1 -> Level_1_final1
+[2022.11.06-01.08.02:303][862]LogContentBrowser: End creating deferred item Level_1_final1
+[2022.11.06-01.08.03:029][907]LogMeshUtilities: Finished distance field build in 6.6s - 126x126x126 sparse distance field, 2.5Mb total, 0.1Mb always loaded, 74% occupied, 4 triangles, sol
+[2022.11.06-01.08.03:499][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.11.06-01.08.04:801][934]LogSlate: Window 'Save Content' being destroyed
+[2022.11.06-01.08.04:886][934]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.06-01.08.05:294][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LEVEL/Level_1_final1" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/LEVEL/Level_1_final1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.11.06-01.08.05:314][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.11.06-01.08.05:318][934]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.003799 seconds
+[2022.11.06-01.08.05:508][934]LogSavePackage: Moving output files for package: /Game/LEVEL/Level_1_final1
+[2022.11.06-01.08.05:508][934]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/Level_1_final16E78E4454FB07FD99C45A489834C64AB.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/LEVEL/Level_1_final1.umap'
+[2022.11.06-01.08.05:889][934]LogFileHelpers: Saving map 'Level_1_final1' took 1.020
+[2022.11.06-01.08.05:897][934]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LEVEL/Level_1_final1.Level_1_final1
+[2022.11.06-01.08.05:897][934]Cmd: MAP LOAD FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/LEVEL/Level_1_final1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.06-01.08.05:897][934]LightingResults: New page: Lighting Build
+[2022.11.06-01.08.05:897][934]LoadErrors: New page: Loading map: Level_1_final1.umap
+[2022.11.06-01.08.05:925][934]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.06-01.08.05:926][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.06-01.08.05:927][934]MapCheck: New page: Map Check
+[2022.11.06-01.08.05:927][934]LightingResults: New page: Lighting Build
+[2022.11.06-01.08.05:936][934]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.06-01.08.05:957][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.11.06-01.08.06:018][934]LogWorld: UWorld::CleanupWorld for Level_1_final1, bSessionEnded=true, bCleanupResources=true
+[2022.11.06-01.08.06:035][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.06-01.08.06:037][934]LogWorld: UWorld::CleanupWorld for Level_1_final, bSessionEnded=true, bCleanupResources=true
+[2022.11.06-01.08.06:053][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.06-01.08.06:078][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.11.06-01.08.06:087][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.11.06-01.08.06:146][934]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level_1_final1'.
+[2022.11.06-01.08.06:146][934]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.06-01.08.06:146][934]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.06-01.08.06:146][934]LogAIModule: Creating AISystem for world Level_1_final1
+[2022.11.06-01.08.06:590][934]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.06-01.08.06:614][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.11.06-01.08.06:623][934]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.06-01.08.06:623][934]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,164ms to complete.
+[2022.11.06-01.08.06:623][934]LogFileHelpers: Loading map 'Level_1_final1' took 0.726
+[2022.11.06-01.08.06:636][934]AssetCheck: New page: Asset Save: Level_1_final1
+[2022.11.06-01.08.06:636][934]LogContentValidation: Display: Validating World /Game/LEVEL/Level_1_final1.Level_1_final1
+[2022.11.06-01.08.25:326][325]LogSlate: Took 0.005136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.11.06-01.08.52:880][800]LogMaterial: Display: Missing cached shadermap for TX_cailloux in PCD3D_SM5, Default, SM5 (DDC key hash: ABEFF631A00CA1C78794E6FF4B66AE840753BB80), compiling. 
+[2022.11.06-01.08.52:968][800]LogStaticMesh: Display: Building static mesh amas_gros_caillou_3...
+[2022.11.06-01.08.52:968][800]LogStaticMesh: Display: Building static mesh amas_gros_cailloux_1...
+[2022.11.06-01.08.52:969][800]LogStaticMesh: Display: Building static mesh amas_gros_cailloux_2...
+[2022.11.06-01.08.52:969][800]LogStaticMesh: Built static mesh [0.01s] /Game/mesh/mesh/amas_gros_caillou_3.amas_gros_caillou_3
+[2022.11.06-01.08.52:969][800]LogEditorFactories: Performing atomic reimport of [P:/GAME_JAM/GameJamO3D/Groupe_H/Assets/amas_gros_caillou_3.fbx]
+[2022.11.06-01.08.53:003][800]LogStaticMesh: Display: Building static mesh gros_caillou_1...
+[2022.11.06-01.08.53:003][800]LogStaticMesh: Built static mesh [0.01s] /Game/mesh/mesh/amas_gros_cailloux_2.amas_gros_cailloux_2
+[2022.11.06-01.08.53:003][800]LogStaticMesh: Display: Building static mesh gros_caillou_2...
+[2022.11.06-01.08.53:003][800]LogStaticMesh: Built static mesh [0.02s] /Game/mesh/mesh/amas_gros_cailloux_1.amas_gros_cailloux_1
+[2022.11.06-01.08.53:003][800]LogStaticMesh: Display: Building static mesh gros_caillou_3...
+[2022.11.06-01.08.53:003][800]LogStaticMesh: Built static mesh [0.01s] /Game/mesh/mesh/gros_caillou_1.gros_caillou_1
+[2022.11.06-01.08.53:003][800]LogStaticMesh: Built static mesh [0.01s] /Game/mesh/mesh/gros_caillou_3.gros_caillou_3
+[2022.11.06-01.08.53:003][800]LogStaticMesh: Built static mesh [0.02s] /Game/mesh/mesh/gros_caillou_2.gros_caillou_2
+[2022.11.06-01.08.53:003][800]LogFbx: Loading FBX Scene from P:/GAME_JAM/GameJamO3D/Groupe_H/Assets/amas_gros_caillou_3.fbx
+[2022.11.06-01.08.53:009][800]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.06-01.08.56:001][800]LogMeshUtilities: Finished distance field build in 3.0s - 105x98x112 sparse distance field, 1.1Mb total, 0.0Mb always loaded, 57% occupied, 138 triangles, amas_gros_caillou_3
+[2022.11.06-01.08.56:076][800]LogStaticMesh: Display: Building static mesh amas_gros_caillou_3...
+[2022.11.06-01.08.56:145][800]LogStaticMesh: Built static mesh [0.07s] /Game/mesh/mesh/amas_gros_caillou_3.amas_gros_caillou_3
+[2022.11.06-01.08.56:153][800]LogStaticMesh: Warning: amas_gros_caillou_3 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2022.11.06-01.08.56:153][800]LogStaticMesh: Warning: amas_gros_caillou_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.11.06-01.08.56:161][800]LogEditorFactories: -- imported successfully
+[2022.11.06-01.08.56:162][800]FBXImport: Warning: amas_gros_caillou_3 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2022.11.06-01.08.56:162][800]FBXImport: Warning: amas_gros_caillou_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.11.06-01.08.58:859][800]LogMeshUtilities: Finished distance field build in 2.7s - 105x98x112 sparse distance field, 1.1Mb total, 0.0Mb always loaded, 57% occupied, 138 triangles, amas_gros_caillou_3
+[2022.11.06-01.08.58:885][800]LogEditorFactories: Performing atomic reimport of [P:/GAME_JAM/GameJamO3D/Groupe_H/Assets/amas_gros_cailloux_1.fbx]
+[2022.11.06-01.08.58:943][800]LogFbx: Loading FBX Scene from P:/GAME_JAM/GameJamO3D/Groupe_H/Assets/amas_gros_cailloux_1.fbx
+[2022.11.06-01.08.58:949][800]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.06-01.08.59:051][800]LogStaticMesh: Display: Building static mesh amas_gros_cailloux_1...
+[2022.11.06-01.08.59:117][800]LogStaticMesh: Built static mesh [0.07s] /Game/mesh/mesh/amas_gros_cailloux_1.amas_gros_cailloux_1
+[2022.11.06-01.08.59:136][800]LogEditorFactories: -- imported successfully
+[2022.11.06-01.08.59:169][800]LogEditorFactories: Performing atomic reimport of [P:/GAME_JAM/GameJamO3D/Groupe_H/Assets/amas_gros_cailloux_2.fbx]
+[2022.11.06-01.08.59:227][800]LogFbx: Loading FBX Scene from P:/GAME_JAM/GameJamO3D/Groupe_H/Assets/amas_gros_cailloux_2.fbx
+[2022.11.06-01.08.59:233][800]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.06-01.08.59:519][800]LogStaticMesh: Display: Building static mesh amas_gros_cailloux_2...
+[2022.11.06-01.08.59:686][800]LogStaticMesh: Built static mesh [0.17s] /Game/mesh/mesh/amas_gros_cailloux_2.amas_gros_cailloux_2
+[2022.11.06-01.08.59:704][800]LogEditorFactories: -- imported successfully
+[2022.11.06-01.08.59:738][800]LogEditorFactories: Performing atomic reimport of [P:/GAME_JAM/GameJamO3D/Groupe_H/Assets/gros_caillou_1.fbx]
+[2022.11.06-01.08.59:760][800]LogFbx: Loading FBX Scene from P:/GAME_JAM/GameJamO3D/Groupe_H/Assets/gros_caillou_1.fbx
+[2022.11.06-01.08.59:765][800]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.06-01.08.59:946][800]LogFbx: Display: Triangulating static mesh gros_caillou
+[2022.11.06-01.09.00:053][800]LogStaticMesh: Display: Building static mesh gros_caillou_1...
+[2022.11.06-01.09.00:252][800]LogStaticMesh: Built static mesh [0.20s] /Game/mesh/mesh/gros_caillou_1.gros_caillou_1
+[2022.11.06-01.09.00:272][800]LogEditorFactories: -- imported successfully
+[2022.11.06-01.09.00:301][800]LogEditorFactories: Performing atomic reimport of [P:/GAME_JAM/GameJamO3D/Groupe_H/Assets/gros_caillou_2.fbx]
+[2022.11.06-01.09.00:362][800]LogFbx: Loading FBX Scene from P:/GAME_JAM/GameJamO3D/Groupe_H/Assets/gros_caillou_2.fbx
+[2022.11.06-01.09.00:370][800]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.06-01.09.00:564][800]LogFbx: Display: Triangulating static mesh gros_caillou_2
+[2022.11.06-01.09.00:670][800]LogStaticMesh: Display: Building static mesh gros_caillou_2...
+[2022.11.06-01.09.00:824][800]LogStaticMesh: Built static mesh [0.15s] /Game/mesh/mesh/gros_caillou_2.gros_caillou_2
+[2022.11.06-01.09.00:844][800]LogEditorFactories: -- imported successfully
+[2022.11.06-01.09.00:867][800]LogEditorFactories: Performing atomic reimport of [P:/GAME_JAM/GameJamO3D/Groupe_H/Assets/gros_caillou_3.fbx]
+[2022.11.06-01.09.00:927][800]LogFbx: Loading FBX Scene from P:/GAME_JAM/GameJamO3D/Groupe_H/Assets/gros_caillou_3.fbx
+[2022.11.06-01.09.00:934][800]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.06-01.09.01:222][800]LogStaticMesh: Display: Building static mesh gros_caillou_3...
+[2022.11.06-01.09.01:384][800]LogStaticMesh: Built static mesh [0.16s] /Game/mesh/mesh/gros_caillou_3.gros_caillou_3
+[2022.11.06-01.09.01:397][800]LogStaticMesh: Warning: gros_caillou_3 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2022.11.06-01.09.01:397][800]LogStaticMesh: Warning: gros_caillou_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2022.11.06-01.09.01:403][800]LogEditorFactories: -- imported successfully
+[2022.11.06-01.09.01:404][800]FBXImport: Warning: gros_caillou_3 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2022.11.06-01.09.01:404][800]FBXImport: Warning: gros_caillou_3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2022.11.06-01.09.01:510][800]LogMeshUtilities: Finished distance field build in 2.6s - 105x98x112 sparse distance field, 1.1Mb total, 0.0Mb always loaded, 57% occupied, 138 triangles, amas_gros_caillou_3
+[2022.11.06-01.09.01:670][800]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\bouda.fbx)
+[2022.11.06-01.09.01:819][800]LogFbx: Loading FBX Scene from P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\bouda.fbx
+[2022.11.06-01.09.01:827][800]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.06-01.09.03:297][800]LogDerivedDataCache: C:/Users/CUER1012/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.031 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.06-01.09.04:778][800]LogMeshUtilities: Finished distance field build in 3.3s - 126x126x91 sparse distance field, 1.2Mb total, 0.0Mb always loaded, 46% occupied, 94 triangles, amas_gros_cailloux_1
+[2022.11.06-01.09.06:155][800]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.11.06-01.09.06:180][800]LogFbx: Display: Triangulating static mesh Sphere004
+[2022.11.06-01.09.06:249][800]LogStaticMesh: Display: Building static mesh bouda...
+[2022.11.06-01.09.06:284][800]LogStaticMesh: Built static mesh [0.04s] /Game/mesh/mesh/bouda.bouda
+[2022.11.06-01.09.06:301][800]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.11.06-01.09.06:420][800]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\bout_de_fromage.fbx)
+[2022.11.06-01.09.06:438][800]LogFbx: Loading FBX Scene from P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\bout_de_fromage.fbx
+[2022.11.06-01.09.06:446][800]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.06-01.09.06:446][800]LogFbx: Display: Triangulating static mesh Cylinder002
+[2022.11.06-01.09.06:449][800]LogStaticMesh: Display: Building static mesh bout_de_fromage...
+[2022.11.06-01.09.06:454][800]LogStaticMesh: Built static mesh [0.01s] /Game/mesh/mesh/bout_de_fromage.bout_de_fromage
+[2022.11.06-01.09.06:461][800]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.11.06-01.09.06:481][800]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\Bout_de_fromage_2.fbx)
+[2022.11.06-01.09.06:505][800]LogFbx: Loading FBX Scene from P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\Bout_de_fromage_2.fbx
+[2022.11.06-01.09.06:512][800]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.06-01.09.06:512][800]LogFbx: Display: Triangulating static mesh Cylinder002
+[2022.11.06-01.09.06:514][800]LogStaticMesh: Display: Building static mesh Bout_de_fromage_2...
+[2022.11.06-01.09.06:518][800]LogStaticMesh: Built static mesh [0.00s] /Game/mesh/mesh/Bout_de_fromage_2.Bout_de_fromage_2
+[2022.11.06-01.09.06:526][800]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.11.06-01.09.06:556][800]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\gang.fbx)
+[2022.11.06-01.09.06:569][800]LogFbx: Loading FBX Scene from P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\gang.fbx
+[2022.11.06-01.09.06:593][800]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.06-01.09.07:078][800]LogMeshUtilities: Finished distance field build in 2.2s - 105x84x98 sparse distance field, 0.9Mb total, 0.0Mb always loaded, 58% occupied, 69 triangles, amas_gros_cailloux_2
+[2022.11.06-01.09.07:590][800]LogMaterial: Display: Missing cached shadermap for TX_gang in PCD3D_SM5, Default, SM5 (DDC key hash: 61833C276BAC0FF71870CF8CA1A2A1C898D627EF), compiling. 
+[2022.11.06-01.09.07:605][800]LogFbx: Display: Triangulating static mesh gang
+[2022.11.06-01.09.07:618][800]LogStaticMesh: Display: Building static mesh gang...
+[2022.11.06-01.09.07:621][800]LogStaticMesh: Built static mesh [0.00s] /Game/mesh/mesh/gang.gang
+[2022.11.06-01.09.07:629][800]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'TX_gang' was renamed 'TX_gang_ncl1_1' 
+[2022.11.06-01.09.07:641][800]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\Gundam.fbx)
+[2022.11.06-01.09.07:653][800]LogFbx: Loading FBX Scene from P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\Gundam.fbx
+[2022.11.06-01.09.07:664][800]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.06-01.09.07:665][800]LogFbxMaterialImport: Display: Unable to find Texture file F:\Clementine Budon\Gamejam 2022 Evolution\Assets\Pre-Prod\textures\TX_Gundam_Color.jpg
+[2022.11.06-01.09.07:666][800]LogFbxMaterialImport: Display: Unable to find Texture file F:\Clementine Budon\Gamejam 2022 Evolution\Assets\Pre-Prod\textures\TX_Gundam_Transparancy.jpg
+[2022.11.06-01.09.07:669][800]LogMaterial: Display: Missing cached shadermap for Material__54 in PCD3D_SM5, Default, SM5 (DDC key hash: DB2FAD476EA0B1CE3251F9C9A612756910739163), compiling. 
+[2022.11.06-01.09.07:679][800]LogFbx: Display: Triangulating static mesh Plane001
+[2022.11.06-01.09.07:680][800]LogStaticMesh: Display: Building static mesh Gundam...
+[2022.11.06-01.09.07:683][800]LogStaticMesh: Built static mesh [0.00s] /Game/mesh/mesh/Gundam.Gundam
+[2022.11.06-01.09.07:690][800]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.11.06-01.09.07:703][800]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\MeuleDeFromage_2.fbx)
+[2022.11.06-01.09.07:716][800]LogFbx: Loading FBX Scene from P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\MeuleDeFromage_2.fbx
+[2022.11.06-01.09.07:721][800]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.06-01.09.07:725][800]LogStaticMesh: Display: Building static mesh MeuleDeFromage_2...
+[2022.11.06-01.09.07:744][800]LogStaticMesh: Built static mesh [0.02s] /Game/mesh/mesh/MeuleDeFromage_2.MeuleDeFromage_2
+[2022.11.06-01.09.07:754][800]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.11.06-01.09.07:810][800]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\TintinEtTchang.fbx)
+[2022.11.06-01.09.07:824][800]LogFbx: Loading FBX Scene from P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\TintinEtTchang.fbx
+[2022.11.06-01.09.07:832][800]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.06-01.09.07:833][800]LogFbxMaterialImport: Display: Unable to find Texture file F:\Clementine Budon\Gamejam 2022 Evolution\Assets\Pre-Prod\textures\TX_Tintin_color.jpg
+[2022.11.06-01.09.07:834][800]LogFbxMaterialImport: Display: Unable to find Texture file F:\Clementine Budon\Gamejam 2022 Evolution\Assets\Pre-Prod\textures\TX_Tintin_opacity.jpg
+[2022.11.06-01.09.07:837][800]LogMaterial: Display: Missing cached shadermap for Material__55 in PCD3D_SM5, Default, SM5 (DDC key hash: 144BE8A026A4FBC0AC64531C4045796587918152), compiling. 
+[2022.11.06-01.09.07:847][800]LogFbx: Display: Triangulating static mesh Plane002
+[2022.11.06-01.09.07:848][800]LogStaticMesh: Display: Building static mesh TintinEtTchang...
+[2022.11.06-01.09.07:851][800]LogStaticMesh: Built static mesh [0.00s] /Game/mesh/mesh/TintinEtTchang.TintinEtTchang
+[2022.11.06-01.09.07:859][800]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.11.06-01.09.07:872][800]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\Yeti.fbx)
+[2022.11.06-01.09.07:884][800]LogFbx: Loading FBX Scene from P:\GAME_JAM\GameJamO3D\Groupe_H\Assets\Yeti.fbx
+[2022.11.06-01.09.07:891][800]LogFbx: FBX Scene Loaded Succesfully
+[2022.11.06-01.09.07:892][800]LogFbxMaterialImport: Display: Unable to find Texture file F:\Clementine Budon\Gamejam 2022 Evolution\Assets\Pre-Prod\textures\TX_Yeti_color.jpg
+[2022.11.06-01.09.07:893][800]LogFbxMaterialImport: Display: Unable to find Texture file F:\Clementine Budon\Gamejam 2022 Evolution\Assets\Pre-Prod\textures\TX_Yeti_opacity.jpg
+[2022.11.06-01.09.07:896][800]LogMaterial: Display: Missing cached shadermap for Material__56 in PCD3D_SM5, Default, SM5 (DDC key hash: 0A802C65901AC0174EF8FC3316CA6CB1039A267A), compiling. 
+[2022.11.06-01.09.07:908][800]LogFbx: Display: Triangulating static mesh Plane003
+[2022.11.06-01.09.07:909][800]LogStaticMesh: Display: Building static mesh Yeti...
+[2022.11.06-01.09.07:912][800]LogStaticMesh: Built static mesh [0.00s] /Game/mesh/mesh/Yeti.Yeti
+[2022.11.06-01.09.07:921][800]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.11.06-01.09.07:924][800]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SLevelEditor [LevelEditor.cpp(210)].
+[2022.11.06-01.09.08:019][802]LogTexture: Display: Building textures: /Game/mesh/mesh/TX_gang_ncl1_1.TX_gang_ncl1_1 (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.11.06-01.09.08:019][802]LogTexture: Display: Building textures: /Game/mesh/mesh/alpha_gang.alpha_gang (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.11.06-01.09.08:019][802]LogTexture: Display: Waiting for textures to be ready 0/2 (/Game/mesh/mesh/TX_gang_ncl1_1) ...
+[2022.11.06-01.09.08:420][805]LogMeshUtilities: Finished distance field build in 1.4s - 63x70x105 sparse distance field, 0.6Mb total, 0.0Mb always loaded, 77% occupied, 59 triangles, gros_caillou_1
+[2022.11.06-01.09.11:230][956]LogMeshUtilities: Finished distance field build in 1.9s - 91x98x70 sparse distance field, 0.8Mb total, 0.0Mb always loaded, 73% occupied, 32 triangles, gros_caillou_3
+[2022.11.06-01.09.18:181][441]LogMeshUtilities: Finished distance field build in 6.8s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 59% occupied, 789 triangles, bouda
+[2022.11.06-01.09.29:174][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.11.06-01.09.29:278][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/amas_gros_caillou_3" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/amas_gros_caillou_3.uasset" SILENT=true
+[2022.11.06-01.09.29:281][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/amas_gros_caillou_3
+[2022.11.06-01.09.29:282][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/amas_gros_caillou_3D75DF84C4B9EE2EF7A962BB85ECEA503.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/amas_gros_caillou_3.uasset'
+[2022.11.06-01.09.29:292][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/amas_gros_cailloux_1" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/amas_gros_cailloux_1.uasset" SILENT=true
+[2022.11.06-01.09.29:295][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/amas_gros_cailloux_1
+[2022.11.06-01.09.29:295][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/amas_gros_cailloux_1EA5C2F324A10C676F863AB807F2CF075.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/amas_gros_cailloux_1.uasset'
+[2022.11.06-01.09.29:305][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/amas_gros_cailloux_2" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/amas_gros_cailloux_2.uasset" SILENT=true
+[2022.11.06-01.09.29:308][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/amas_gros_cailloux_2
+[2022.11.06-01.09.29:309][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/amas_gros_cailloux_22977899B4C8712B3C8757CB988824CC6.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/amas_gros_cailloux_2.uasset'
+[2022.11.06-01.09.29:319][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/gros_caillou_1" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/gros_caillou_1.uasset" SILENT=true
+[2022.11.06-01.09.29:322][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/gros_caillou_1
+[2022.11.06-01.09.29:322][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/gros_caillou_18E97B7E84676F8879F066794301C759C.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/gros_caillou_1.uasset'
+[2022.11.06-01.09.29:333][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/gros_caillou_2" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/gros_caillou_2.uasset" SILENT=true
+[2022.11.06-01.09.29:335][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/gros_caillou_2
+[2022.11.06-01.09.29:336][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/gros_caillou_250A2195E452DC21437C64E9DB4646412.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/gros_caillou_2.uasset'
+[2022.11.06-01.09.29:346][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/gros_caillou_3" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/gros_caillou_3.uasset" SILENT=true
+[2022.11.06-01.09.29:349][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/gros_caillou_3
+[2022.11.06-01.09.29:349][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/gros_caillou_3FEA87CE1409E78113A27588A345A7EAA.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/gros_caillou_3.uasset'
+[2022.11.06-01.09.29:360][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/bouda" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/bouda.uasset" SILENT=true
+[2022.11.06-01.09.29:366][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/bouda
+[2022.11.06-01.09.29:366][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/boudaDE08728244A898AF15E37184C892AA6D.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/bouda.uasset'
+[2022.11.06-01.09.29:377][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/bout_de_fromage" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/bout_de_fromage.uasset" SILENT=true
+[2022.11.06-01.09.29:379][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/bout_de_fromage
+[2022.11.06-01.09.29:379][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/bout_de_fromage33448AAC418247F5EA719C8089AA4514.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/bout_de_fromage.uasset'
+[2022.11.06-01.09.29:389][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/Bout_de_fromage_2" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/Bout_de_fromage_2.uasset" SILENT=true
+[2022.11.06-01.09.29:391][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/Bout_de_fromage_2
+[2022.11.06-01.09.29:391][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/Bout_de_fromage_20DF3D7F540EEE8DC5106EF91299A8978.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/Bout_de_fromage_2.uasset'
+[2022.11.06-01.09.29:401][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/gang" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/gang.uasset" SILENT=true
+[2022.11.06-01.09.29:404][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/gang
+[2022.11.06-01.09.29:404][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/gang8ABBA3814021A81B9DAA09ACAD6B1D85.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/gang.uasset'
+[2022.11.06-01.09.33:261][213]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2022.11.06-01.09.33:261][213]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.049962s
+[2022.11.06-01.09.35:402][213]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.001978s (2.185460s overbudget)
+[2022.11.06-01.09.35:444][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/TX_gang" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/TX_gang.uasset" SILENT=true
+[2022.11.06-01.09.35:445][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/TX_gang
+[2022.11.06-01.09.35:445][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/TX_gang9D4E5417427EFEE6A3B64ABB4B5D36F8.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/TX_gang.uasset'
+[2022.11.06-01.09.35:448][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/TX_gang_ncl1_1" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/TX_gang_ncl1_1.uasset" SILENT=true
+[2022.11.06-01.09.35:656][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/TX_gang_ncl1_1
+[2022.11.06-01.09.35:656][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/TX_gang_ncl1_1C3459D8C462502C68DA29DA15C6AF8B5.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/TX_gang_ncl1_1.uasset'
+[2022.11.06-01.09.35:661][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/alpha_gang" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/alpha_gang.uasset" SILENT=true
+[2022.11.06-01.09.35:820][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/alpha_gang
+[2022.11.06-01.09.35:820][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/alpha_gangD5811ACA4ED1740438508A991F4C6482.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/alpha_gang.uasset'
+[2022.11.06-01.09.35:840][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/Gundam" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/Gundam.uasset" SILENT=true
+[2022.11.06-01.09.35:842][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/Gundam
+[2022.11.06-01.09.35:842][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/Gundam1AED792543E428E01F38C99FAFA70184.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/Gundam.uasset'
+[2022.11.06-01.09.37:876][213]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.11.06-01.09.38:706][213]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.002339s (0.849529s overbudget)
+[2022.11.06-01.09.38:739][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/Material__54" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/Material__54.uasset" SILENT=true
+[2022.11.06-01.09.38:740][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/Material__54
+[2022.11.06-01.09.38:740][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/Material__544C5596DE4B17E98BFF8F68A7EB48B5F2.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/Material__54.uasset'
+[2022.11.06-01.09.40:785][213]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.11.06-01.09.41:565][213]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.003999s (0.809473s overbudget)
+[2022.11.06-01.09.41:611][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/Material__56" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/Material__56.uasset" SILENT=true
+[2022.11.06-01.09.41:613][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/Material__56
+[2022.11.06-01.09.41:613][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/Material__56F4F36EC14F5D083DCB1564901909347B.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/Material__56.uasset'
+[2022.11.06-01.09.41:663][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/Yeti" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/Yeti.uasset" SILENT=true
+[2022.11.06-01.09.41:665][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/Yeti
+[2022.11.06-01.09.41:665][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/Yeti16F2AEBF4C9AEBD7E8150EACADEDFD87.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/Yeti.uasset'
+[2022.11.06-01.09.41:701][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/MeuleDeFromage_2" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/MeuleDeFromage_2.uasset" SILENT=true
+[2022.11.06-01.09.41:705][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/MeuleDeFromage_2
+[2022.11.06-01.09.41:705][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/MeuleDeFromage_2DE7605F2464B8144F9C7869E5199FF0B.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/MeuleDeFromage_2.uasset'
+[2022.11.06-01.09.41:742][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/TintinEtTchang" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/TintinEtTchang.uasset" SILENT=true
+[2022.11.06-01.09.41:744][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/TintinEtTchang
+[2022.11.06-01.09.41:744][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/TintinEtTchang988E3632428A35532956BF9DCB365A34.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/TintinEtTchang.uasset'
+[2022.11.06-01.09.43:899][213]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.11.06-01.09.44:536][213]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.000035s (0.776986s overbudget)
+[2022.11.06-01.09.44:569][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mesh/mesh/Material__55" FILE="C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/Material__55.uasset" SILENT=true
+[2022.11.06-01.09.44:571][213]LogSavePackage: Moving output files for package: /Game/mesh/mesh/Material__55
+[2022.11.06-01.09.44:571][213]LogSavePackage: Moving 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Saved/Material__55B49A9CAA4D7E709FAEF0EAA4AE1ABF3E.tmp' to 'C:/Users/CUER1012/Documents/GitHub/rolingston/RollingStone/Content/mesh/mesh/Material__55.uasset'
+[2022.11.06-01.09.44:582][213]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.06-01.09.44:582][213]LogContentValidation: Display: Validating Material /Game/mesh/mesh/Material__56.Material__56
+[2022.11.06-01.09.44:582][213]LogContentValidation: Display: Validating StaticMesh /Game/mesh/mesh/Yeti.Yeti
+[2022.11.06-01.09.44:582][213]LogContentValidation: Display: Validating Material /Game/mesh/mesh/Material__55.Material__55
+[2022.11.06-01.09.44:582][213]LogContentValidation: Display: Validating StaticMesh /Game/mesh/mesh/TintinEtTchang.TintinEtTchang
+[2022.11.06-01.09.44:582][213]LogContentValidation: Display: Validating StaticMesh /Game/mesh/mesh/MeuleDeFromage_2.MeuleDeFromage_2
+[2022.11.06-01.09.44:582][213]LogContentValidation: Display: Validating Material /Game/mesh/mesh/Material__54.Material__54
+[2022.11.06-01.09.44:582][213]LogContentValidation: Display: Validating StaticMesh /Game/mesh/mesh/Gundam.Gundam
+[2022.11.06-01.09.44:582][213]LogContentValidation: Display: Validating Texture2D /Game/mesh/mesh/alpha_gang.alpha_gang
+[2022.11.06-01.09.44:583][213]LogContentValidation: Display: Validating Texture2D /Game/mesh/mesh/TX_gang_ncl1_1.TX_gang_ncl1_1
+[2022.11.06-01.09.44:583][213]LogContentValidation: Display: Validating Material /Game/mesh/mesh/TX_gang.TX_gang
+[2022.11.06-01.09.44:583][213]LogContentValidation: Display: Validating StaticMesh /Game/mesh/mesh/gang.gang
+[2022.11.06-01.09.44:583][213]LogContentValidation: Display: Validating StaticMesh /Game/mesh/mesh/Bout_de_fromage_2.Bout_de_fromage_2
+[2022.11.06-01.09.44:583][213]LogContentValidation: Display: Validating StaticMesh /Game/mesh/mesh/bout_de_fromage.bout_de_fromage
+[2022.11.06-01.09.44:583][213]LogContentValidation: Display: Validating StaticMesh /Game/mesh/mesh/bouda.bouda
+[2022.11.06-01.09.44:583][213]LogContentValidation: Display: Validating StaticMesh /Game/mesh/mesh/gros_caillou_3.gros_caillou_3
+[2022.11.06-01.09.44:583][213]LogContentValidation: Display: Validating StaticMesh /Game/mesh/mesh/gros_caillou_2.gros_caillou_2
+[2022.11.06-01.09.44:583][213]LogContentValidation: Display: Validating StaticMesh /Game/mesh/mesh/gros_caillou_1.gros_caillou_1
+[2022.11.06-01.09.44:583][213]LogContentValidation: Display: Validating StaticMesh /Game/mesh/mesh/amas_gros_cailloux_2.amas_gros_cailloux_2
+[2022.11.06-01.09.44:583][213]LogContentValidation: Display: Validating StaticMesh /Game/mesh/mesh/amas_gros_cailloux_1.amas_gros_cailloux_1
+[2022.11.06-01.09.44:583][213]LogContentValidation: Display: Validating StaticMesh /Game/mesh/mesh/amas_gros_caillou_3.amas_gros_caillou_3
